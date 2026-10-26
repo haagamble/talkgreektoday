@@ -1,0 +1,7 @@
+---
+layout: base.njk
+title: Search lessons
+permalink: /search/
+---
+<section class="wrap page-heading"><p class="eyebrow">SEARCH LESSONS</p><h1>What are you curious about?</h1><p class="lede">Search lesson explanations and examples. Try “Monday”, “half past”, or “imperative”.</p><link href="{{ '/pagefind/pagefind-ui.css' | urlpath }}" rel="stylesheet"><div id="search"></div><noscript><p>Search requires JavaScript. You can also <a href="{{ '/lessons/' | urlpath }}">browse all lessons</a>.</p></noscript></section>
+<script src="{{ '/pagefind/pagefind-ui.js' | urlpath }}"></script><script>window.addEventListener('DOMContentLoaded', () => { if(window.PagefindUI) new PagefindUI({ element: '#search', showSubResults: true }); });</script>

@@ -1,0 +1,29 @@
+﻿---
+layout: base.njk
+---
+{% set step = page.url | courseEntry(collections.beginnerCourse) %}
+{% set previous = page.url | coursePrevious(collections.beginnerCourse) %}
+{% set next = page.url | courseNext(collections.beginnerCourse) %}
+<div class="lesson-heading wrap">
+  {% if step %}<a class="back" href="{{ '/beginner-course/' | urlpath }}">← All beginner lessons</a>{% else %}<a class="back" href="{{ '/lessons/' | urlpath }}">← All lessons</a>{% endif %}
+  <p class="eyebrow">{{ category }}{% if step %} · BEGINNER COURSE · LESSON {{ step.position }}{% endif %}</p>
+  <h1>{{ title }}</h1><p class="greek-title" lang="el">{{ greekTitle }}</p><p class="lede">{{ summary }}</p>
+  <div class="lesson-meta"><span>Explanation + practice</span><button class="text-button" onclick="window.print()">Print lesson ↗</button></div>
+</div>
+<div class="lesson-layout wrap">
+  <aside class="contents" data-pagefind-ignore><p class="eyebrow">IN THIS LESSON</p><nav aria-label="Lesson sections" id="lesson-toc"></nav></aside>
+  <article class="lesson-body">{{ content | safe }}
+    {% if step %}
+    <nav class="course-navigation" aria-label="Beginner course navigation" data-pagefind-ignore>
+      <div class="course-navigation-pair">
+        <div>{% if previous %}{% if previous.lesson %}<a class="course-navigation-link" href="{{ previous.lesson.url | urlpath }}"><span>← Previous lesson</span><strong>{{ previous.title }}</strong></a>{% else %}<p class="course-navigation-planned"><span>Previous lesson</span>{{ previous.title }} <small>Coming soon</small></p>{% endif %}{% endif %}</div>
+        <div>{% if next %}{% if next.lesson %}<a class="course-navigation-link next-lesson" href="{{ next.lesson.url | urlpath }}"><span>Next lesson →</span><strong>{{ next.title }}</strong></a>{% else %}<p class="course-navigation-planned"><span>Next lesson</span>{{ next.title }} <small>Coming soon</small></p>{% endif %}{% endif %}</div>
+      </div>
+      <a class="course-return" href="{{ '/beginner-course/' | urlpath }}">All beginner lessons</a>
+    </nav>
+    {% else %}
+    {% set related = relatedLessons | selectedLessons(collections.lessons) %}
+    {% if related.length %}<nav class="related" aria-label="Related lessons" data-pagefind-ignore><p class="eyebrow">{% if category == 'Topics' %}RELATED TOPICS{% else %}RELATED LESSONS{% endif %}</p>{% for item in related %}<a href="{{ item.url | urlpath }}">{{ item.data.title }} →</a>{% endfor %}</nav>{% endif %}
+    {% endif %}
+  </article>
+</div>

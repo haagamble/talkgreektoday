@@ -1,0 +1,35 @@
+﻿---
+layout: base.njk
+title: All lessons
+permalink: /lessons/
+---
+<section class="wrap page-heading">
+  <p class="eyebrow">THE LESSON LIBRARY</p>
+  <h1>Browse the lessons</h1>
+  <p class="lede">Choose Grammar, Topics, or Reference. For a step-by-step introduction, follow the <a href="{{ '/beginner-course/' | urlpath }}">beginner course</a>.</p>
+  <div class="library-controls" hidden data-library-controls>
+    <label for="library-query">Find a lesson</label>
+    <input type="search" id="library-query" placeholder="Search titles, descriptions, or subjects" aria-describedby="library-search-hint">
+    <p id="library-search-hint" class="search-hint">For words within a lesson, <a href="{{ '/search/' | urlpath }}">search the full lesson text</a>.</p>
+    <div class="filters" role="group" aria-label="Filter by category">
+      <button class="active" data-filter="all" aria-pressed="true">All lessons</button>
+      <button data-filter="Grammar" aria-pressed="false">Grammar</button>
+      <button data-filter="Topics" aria-pressed="false">Topics</button>
+      <button data-filter="Reference" aria-pressed="false">Reference</button>
+    </div>
+    <label for="library-subject">Subject</label>
+    <select id="library-subject"><option value="all">All subjects</option></select>
+    <p class="library-count" id="library-count" role="status" aria-live="polite"></p>
+  </div>
+  <ul class="lesson-list">
+    {% for lesson in collections.lessons %}
+    {% set step = lesson.url | courseEntry(collections.beginnerCourse) %}
+    <li class="lesson-row" data-category="{{ lesson.data.category | escape }}" data-subjects="{{ lesson.data.subjects | join('|') | escape }}" data-search="{{ lesson.data.title | escape }} {{ lesson.data.summary | escape }} {{ lesson.data.subjects | join(' ') | escape }}">
+      <div class="row-main"><div class="row-labels"><span class="category-label">{{ lesson.data.category }}</span>{% if step %}<span class="course-label">Beginner course · {{ step.position }}</span>{% endif %}</div>
+      <h2><a href="{{ lesson.url | urlpath }}">{{ lesson.data.title }} <span aria-hidden="true">→</span></a></h2><p>{{ lesson.data.summary }}</p>
+      <ul class="subject-tags" aria-label="Subjects">{% for subject in lesson.data.subjects %}<li>{{ subject }}</li>{% endfor %}</ul></div>
+    </li>
+    {% endfor %}
+  </ul>
+  <p id="library-empty" class="empty-state" hidden>No lessons match your selection. Try a different search or choose All lessons and All subjects.</p>
+</section>

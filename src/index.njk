@@ -1,0 +1,24 @@
+﻿---
+layout: base.njk
+title: Talk Greek Today
+---
+<section class="hero wrap">
+  <div>
+    <h1>Modern Greek for everyday life.</h1>
+    <p class="lede">Explore lessons, linked resources and interactive learning activities.</p>
+    <a class="button" href="{{ '/beginner-course/' | urlpath }}">Start learning Greek <span>→</span></a>
+    <a class="quiet-link" href="{{ '/lessons/' | urlpath }}">Browse all lessons ↗</a>
+  </div>
+</section>
+<section class="learning-routes wrap" aria-label="Ways to learn">
+  <a class="route" href="{{ '/beginner-course/' | urlpath }}"><p class="eyebrow">FOLLOW A PATH</p><h2>Beginner course <span aria-hidden="true">→</span></h2><p>Begin your Greek journey.</p></a>
+  <a class="route" href="{{ '/lessons/' | urlpath }}"><p class="eyebrow">EXPLORE</p><h2>All lessons <span aria-hidden="true">→</span></h2><p>Browse grammar, topical, and reference lessons.</p></a>
+</section>
+<section class="lesson-section wrap">
+  <div class="section-title"><h2>A few places to explore</h2></div>
+  <div class="cards">
+    {% for lesson in collections.featuredLessons %}
+    <a class="card" href="{{ lesson.url | urlpath }}"><div class="card-top"><span>{{ lesson.data.category }}</span></div><h3>{{ lesson.data.title }}</h3><p>{{ lesson.data.summary }}</p><span class="card-bottom">Read & practise <span>↗</span></span></a>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,18 @@
+{
+  "name": "greek-website",
+  "version": "1.0.0",
+  "description": "Modern Greek lessons and practice",
+  "scripts": {
+    "build": "eleventy && pagefind --site _site",
+    "dev": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7",
+    "pagefind": "^1.5.2"
+  },
+  "private": true
+}

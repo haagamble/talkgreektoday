@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: Beginner course
+permalink: /beginner-course/
+description: Follow a sequence of Modern Greek lessons, starting with nouns, articles, and the verb to be.
+---
+<section class="wrap page-heading">
+  <p class="eyebrow">START LEARNING GREEK</p>
+  <h1>Beginner course</h1>
+  <p class="lede">Follow the lessons in order, or return to a topic you want to practise.</p>
+  <ol class="course-list">
+    {% for step in collections.beginnerCourse %}
+    <li class="course-step{% if not step.lesson %} course-planned{% endif %}">
+      <span class="course-number" aria-hidden="true">{{ step.position }}</span>
+      <div>
+        {% if step.lesson %}<h2><a href="{{ step.lesson.url | urlpath }}">{{ step.title }} <span aria-hidden="true">→</span></a></h2>{% else %}<h2>{{ step.title }}</h2>{% endif %}
+        <p>{{ step.lesson.data.summary or step.summary }}</p>
+      </div>
+      {% if not step.lesson %}<span class="status-label">Coming soon</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  <p class="library-note">Looking for a particular subject? <a href="{{ '/lessons/' | urlpath }}">Browse all lessons →</a></p>
+</section>
