@@ -46,6 +46,7 @@ if (greekSpeechSupported) {
   document.querySelectorAll('.lesson-body [lang="el"], .phrase-card [lang="el"]').forEach(element => {
     const text = element.textContent.trim();
     if (!text || element.querySelector('.speak-button')) return;
+    if (/^-[\p{Script=Greek}]+$/u.test(text)) return;
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'speak-button';
