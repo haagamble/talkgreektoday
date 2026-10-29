@@ -27,6 +27,7 @@ Learn **Γεια σου** and **Γεια σας** as whole expressions. They can
 - **πώς** — how
 - **ευχαριστώ** — thank you
 - **πολύ** — very
+- **καλά** — well / fine
 
 <div class="table-scroll"><table>
 <thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
@@ -40,7 +41,32 @@ Learn **Γεια σου** and **Γεια σας** as whole expressions. They can
 <tr><td lang="el">Εσείς;</td><td>And you? (Several people, or one person politely.)</td></tr>
 </tbody></table></div>
 
-## 3. Saying goodbye
+## 3. Saying yes and no
+
+- **Ναι** — yes
+- **Όχι** — no
+
+<div class="example">
+<p class="greek-line" lang="el">Ναι.</p>
+<p class="translation-line" lang="en">Yes.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Όχι.</p>
+<p class="translation-line" lang="en">No.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Ναι, είμαι καλά.</p>
+<p class="translation-line" lang="en">Yes, I’m fine.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Όχι, δεν είμαι καλά.</p>
+<p class="translation-line" lang="en">No, I’m not fine.</p>
+</div>
+
+## 4. Saying goodbye
 
 <div class="table-scroll"><table>
 <thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
@@ -52,7 +78,7 @@ Learn **Γεια σου** and **Γεια σας** as whole expressions. They can
 
 Use **Καλησπέρα** when greeting someone. Use **Καλό βράδυ** when leaving, and **Καληνύχτα** when saying goodbye late at night or before bed.
 
-## 4. Practice exercises
+## 5. Practice exercises
 
 Translate into Greek. Address one person informally unless otherwise indicated.
 

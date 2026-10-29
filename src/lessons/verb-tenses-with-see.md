@@ -14,7 +14,7 @@ subjects: ["Verbs", "Tenses", "Conjugation"]
 
 summary: "Explore βλέπω across tenses"
 
-relatedLessons: ["/lessons/present-tense-beginners/", "/lessons/imperative/"]
+relatedLessons: ["/lessons/present-tense/", "/lessons/imperative/"]
 permalink: /lessons/verb-tenses-with-see/
 
 ---

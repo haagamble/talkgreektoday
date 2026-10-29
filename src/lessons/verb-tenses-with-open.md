@@ -14,7 +14,7 @@ subjects: ["Verbs", "Tenses", "Conjugation"]
 
 summary: "Explore ανοίγω across tenses"
 
-relatedLessons: ["/lessons/present-tense-beginners/", "/lessons/imperative/"]
+relatedLessons: ["/lessons/present-tense/", "/lessons/imperative/"]
 featured: 3
 permalink: /lessons/verb-tenses-with-open/
 

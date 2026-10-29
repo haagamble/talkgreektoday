@@ -43,10 +43,19 @@ if(toc) document.querySelectorAll('.lesson-body h2').forEach((heading, i) => {
 
 const greekSpeechSupported = typeof window !== 'undefined' && 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 if (greekSpeechSupported) {
+  document.querySelectorAll('.lesson-body table').forEach(table => {
+    const firstHeader = table.querySelector('thead th');
+    if (firstHeader?.textContent.trim() === 'Greek') {
+      table.querySelectorAll('tbody tr').forEach(row => {
+        const firstCell = row.querySelector('td');
+        if (firstCell) firstCell.setAttribute('lang', 'el');
+      });
+    }
+  });
   document.querySelectorAll('.lesson-body [lang="el"], .phrase-card [lang="el"]').forEach(element => {
     const text = element.textContent.trim();
     if (!text || element.querySelector('.speak-button')) return;
-    if (/^-[\p{Script=Greek}]+$/u.test(text)) return;
+    if (/^-[\p{Script=Greek}()]+$/u.test(text)) return;
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'speak-button';

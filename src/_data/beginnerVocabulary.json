@@ -13,293 +13,2145 @@
     {
       "lessonId": "nouns-and-gender",
       "newItems": [
-        { "id": "article-the-masculine", "greek": "ο", "english": "the (masculine)", "type": "article" },
-        { "id": "article-the-feminine", "greek": "η", "english": "the (feminine)", "type": "article" },
-        { "id": "article-the-neuter", "greek": "το", "english": "the (neuter)", "type": "article" },
-        { "id": "noun-friend-male", "greek": "φίλος", "article": "ο", "gender": "masculine", "english": "friend (male)", "type": "noun" },
-        { "id": "noun-dog", "greek": "σκύλος", "article": "ο", "gender": "masculine", "english": "dog", "type": "noun" },
-        { "id": "noun-road", "greek": "δρόμος", "article": "ο", "gender": "masculine", "english": "road", "type": "noun" },
-        { "id": "noun-friend-female", "greek": "φίλη", "article": "η", "gender": "feminine", "english": "friend (female)", "type": "noun" },
-        { "id": "noun-cat", "greek": "γάτα", "article": "η", "gender": "feminine", "english": "cat", "type": "noun" },
-        { "id": "noun-door", "greek": "πόρτα", "article": "η", "gender": "feminine", "english": "door", "type": "noun" },
-        { "id": "noun-book", "greek": "βιβλίο", "article": "το", "gender": "neuter", "english": "book", "type": "noun" },
-        { "id": "noun-house", "greek": "σπίτι", "article": "το", "gender": "neuter", "english": "house", "type": "noun" },
-        { "id": "noun-child", "greek": "παιδί", "article": "το", "gender": "neuter", "english": "child", "type": "noun" },
-        { "id": "noun-girl", "greek": "κορίτσι", "article": "το", "gender": "neuter", "english": "girl", "type": "noun", "note": "Introduced in the note about grammatical gender." },
-        { "id": "conjunction-and", "greek": "και", "english": "and", "type": "conjunction", "note": "Introduced in exercise 10." }
+        {
+          "id": "article-the-masculine",
+          "greek": "ο",
+          "english": "the (masculine)",
+          "type": "article"
+        },
+        {
+          "id": "article-the-feminine",
+          "greek": "η",
+          "english": "the (feminine)",
+          "type": "article"
+        },
+        {
+          "id": "article-the-neuter",
+          "greek": "το",
+          "english": "the (neuter)",
+          "type": "article"
+        },
+        {
+          "id": "noun-cell-phone",
+          "greek": "κινητό",
+          "article": "το",
+          "gender": "neuter",
+          "english": "cell phone",
+          "type": "noun"
+        },
+        {
+          "id": "noun-dog",
+          "greek": "σκύλος",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "dog",
+          "type": "noun"
+        },
+        {
+          "id": "noun-road",
+          "greek": "δρόμος",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "road",
+          "type": "noun"
+        },
+        {
+          "id": "noun-chair",
+          "greek": "καρέκλα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "chair",
+          "type": "noun"
+        },
+        {
+          "id": "noun-cat",
+          "greek": "γάτα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "cat",
+          "type": "noun"
+        },
+        {
+          "id": "noun-door",
+          "greek": "πόρτα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "door",
+          "type": "noun"
+        },
+        {
+          "id": "noun-book",
+          "greek": "βιβλίο",
+          "article": "το",
+          "gender": "neuter",
+          "english": "book",
+          "type": "noun"
+        },
+        {
+          "id": "noun-house",
+          "greek": "σπίτι",
+          "article": "το",
+          "gender": "neuter",
+          "english": "house",
+          "type": "noun"
+        },
+        {
+          "id": "noun-child",
+          "greek": "παιδί",
+          "article": "το",
+          "gender": "neuter",
+          "english": "child",
+          "type": "noun"
+        },
+        {
+          "id": "conjunction-and",
+          "greek": "και",
+          "english": "and",
+          "type": "conjunction",
+          "note": "Introduced in exercise 10."
+        },
+        {
+          "id": "noun-pen",
+          "greek": "το στυλό",
+          "article": "το",
+          "gender": "neuter",
+          "english": "pen",
+          "type": "noun"
+        },
+        {
+          "id": "noun-pencil",
+          "greek": "το μολύβι",
+          "article": "το",
+          "gender": "neuter",
+          "english": "pencil",
+          "type": "noun"
+        },
+        {
+          "id": "noun-bag",
+          "greek": "τσάντα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "bag",
+          "type": "noun"
+        },
+        {
+          "id": "noun-lamp",
+          "greek": "λάμπα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "lamp",
+          "type": "noun"
+        },
+        {
+          "id": "noun-key",
+          "greek": "κλειδί",
+          "article": "το",
+          "gender": "neuter",
+          "english": "key",
+          "type": "noun"
+        },
+        {
+          "id": "noun-notebook",
+          "greek": "τετράδιο",
+          "article": "το",
+          "gender": "neuter",
+          "english": "notebook",
+          "type": "noun"
+        }
       ],
       "newForms": []
     },
     {
       "lessonId": "definite-indefinite-articles",
       "newItems": [
-        { "id": "article-a-masculine", "greek": "ένας", "english": "a / an (masculine)", "type": "article" },
-        { "id": "article-a-feminine", "greek": "μια", "forms": ["μια", "μία"], "english": "a / an (feminine)", "type": "article" },
-        { "id": "article-a-neuter", "greek": "ένα", "english": "a / an (neuter)", "type": "article" },
-        { "id": "verb-be", "greek": "είναι", "lemma": "είμαι", "english": "is", "type": "verb", "note": "Only είναι meaning is is introduced here; the full present tense follows in the next lesson." },
-        { "id": "adverb-here", "greek": "εδώ", "english": "here", "type": "adverb" }
+        {
+          "id": "article-a-masculine",
+          "greek": "ένας",
+          "english": "a / an (masculine)",
+          "type": "article"
+        },
+        {
+          "id": "article-a-feminine",
+          "greek": "μια",
+          "forms": [
+            "μια",
+            "μία"
+          ],
+          "english": "a / an (feminine)",
+          "type": "article"
+        },
+        {
+          "id": "article-a-neuter",
+          "greek": "ένα",
+          "english": "a / an (neuter)",
+          "type": "article"
+        },
+        {
+          "id": "verb-be",
+          "greek": "είναι",
+          "lemma": "είμαι",
+          "english": "is",
+          "type": "verb",
+          "note": "Only είναι meaning is is introduced here; the full present tense follows in the next lesson."
+        },
+        {
+          "id": "adverb-here",
+          "greek": "εδώ",
+          "english": "here",
+          "type": "adverb"
+        },
+        {
+          "id": "adverb-there",
+          "greek": "εκεί",
+          "english": "there",
+          "type": "adverb"
+        }
       ],
       "newForms": []
     },
     {
       "lessonId": "to-be-present-tense",
       "newItems": [
-        { "id": "pronoun-i", "greek": "εγώ", "english": "I", "type": "pronoun" },
-        { "id": "pronoun-you-singular", "greek": "εσύ", "english": "you (singular, informal)", "type": "pronoun" },
-        { "id": "pronoun-he", "greek": "αυτός", "english": "he", "type": "pronoun" },
-        { "id": "pronoun-she", "greek": "αυτή", "english": "she", "type": "pronoun" },
-        { "id": "pronoun-it", "greek": "αυτό", "english": "it", "type": "pronoun" },
-        { "id": "pronoun-we", "greek": "εμείς", "english": "we", "type": "pronoun" },
-        { "id": "pronoun-you-plural", "greek": "εσείς", "english": "you (plural or polite)", "type": "pronoun" },
-        { "id": "pronoun-they-masculine", "greek": "αυτοί", "english": "they (masculine or mixed group)", "type": "pronoun" },
-        { "id": "pronoun-they-feminine", "greek": "αυτές", "english": "they (feminine)", "type": "pronoun" },
-        { "id": "pronoun-they-neuter", "greek": "αυτά", "english": "they (neuter)", "type": "pronoun" },
-        { "id": "adjective-ready", "greek": "έτοιμος", "forms": ["έτοιμος", "έτοιμη", "έτοιμο"], "english": "ready", "type": "adjective" },
-        { "id": "adjective-tired", "greek": "κουρασμένος", "forms": ["κουρασμένος", "κουρασμένη", "κουρασμένο"], "english": "tired", "type": "adjective" },
-        { "id": "adjective-happy", "greek": "χαρούμενος", "forms": ["χαρούμενος", "χαρούμενη", "χαρούμενο"], "english": "happy", "type": "adjective" },
-        { "id": "adjective-sad", "greek": "λυπημένος", "forms": ["λυπημένος", "λυπημένη", "λυπημένο"], "english": "sad", "type": "adjective" },
-        { "id": "adverb-well", "greek": "καλά", "english": "well / fine", "type": "adverb" },
-        { "id": "particle-not", "greek": "δεν", "english": "not (before a verb)", "type": "particle" }
+        {
+          "id": "pronoun-i",
+          "greek": "εγώ",
+          "english": "I",
+          "type": "pronoun"
+        },
+        {
+          "id": "pronoun-you-singular",
+          "greek": "εσύ",
+          "english": "you (singular, informal)",
+          "type": "pronoun"
+        },
+        {
+          "id": "pronoun-he",
+          "greek": "αυτός",
+          "english": "he",
+          "type": "pronoun"
+        },
+        {
+          "id": "pronoun-she",
+          "greek": "αυτή",
+          "english": "she",
+          "type": "pronoun"
+        },
+        {
+          "id": "pronoun-it",
+          "greek": "αυτό",
+          "english": "it",
+          "type": "pronoun"
+        },
+        {
+          "id": "pronoun-we",
+          "greek": "εμείς",
+          "english": "we",
+          "type": "pronoun"
+        },
+        {
+          "id": "pronoun-you-plural",
+          "greek": "εσείς",
+          "english": "you (plural or polite)",
+          "type": "pronoun"
+        },
+        {
+          "id": "pronoun-they-masculine",
+          "greek": "αυτοί",
+          "english": "they (masculine or mixed group)",
+          "type": "pronoun"
+        },
+        {
+          "id": "pronoun-they-feminine",
+          "greek": "αυτές",
+          "english": "they (feminine)",
+          "type": "pronoun"
+        },
+        {
+          "id": "pronoun-they-neuter",
+          "greek": "αυτά",
+          "english": "they (neuter)",
+          "type": "pronoun"
+        },
+        {
+          "id": "adjective-ready",
+          "greek": "έτοιμος",
+          "forms": [
+            "έτοιμος",
+            "έτοιμη",
+            "έτοιμο"
+          ],
+          "english": "ready",
+          "type": "adjective"
+        },
+        {
+          "id": "adjective-tired",
+          "greek": "κουρασμένος",
+          "forms": [
+            "κουρασμένος",
+            "κουρασμένη",
+            "κουρασμένο"
+          ],
+          "english": "tired",
+          "type": "adjective"
+        },
+        {
+          "id": "adjective-happy",
+          "greek": "χαρούμενος",
+          "forms": [
+            "χαρούμενος",
+            "χαρούμενη",
+            "χαρούμενο"
+          ],
+          "english": "happy",
+          "type": "adjective"
+        },
+        {
+          "id": "adjective-sad",
+          "greek": "λυπημένος",
+          "forms": [
+            "λυπημένος",
+            "λυπημένη",
+            "λυπημένο"
+          ],
+          "english": "sad",
+          "type": "adjective"
+        },
+        {
+          "id": "particle-not",
+          "greek": "δεν",
+          "english": "not (before a verb)",
+          "type": "particle"
+        }
       ],
       "newForms": [
-        { "itemId": "verb-be", "forms": ["είμαι", "είσαι", "είναι", "είμαστε", "είστε"], "note": "Full present tense; είναι also means they are. This revisits the already introduced singular είναι." }
+        {
+          "itemId": "verb-be",
+          "forms": [
+            "είμαι",
+            "είσαι",
+            "είναι",
+            "είμαστε",
+            "είστε"
+          ],
+          "note": "Full present tense; είναι also means they are. This revisits the already introduced singular είναι."
+        }
       ]
     },
     {
       "lessonId": "greetings",
       "newItems": [
-        { "id": "expression-hello-informal", "greek": "Γεια σου!", "english": "Hello! / Hi! / Bye! (singular, informal)", "type": "expression" },
-        { "id": "expression-hello-polite", "greek": "Γεια σας!", "english": "Hello! / Bye! (plural or polite)", "type": "expression" },
-        { "id": "expression-good-morning", "greek": "Καλημέρα!", "english": "Good morning!", "type": "expression" },
-        { "id": "expression-good-evening", "greek": "Καλησπέρα!", "english": "Good afternoon! / Good evening!", "type": "expression" },
-        { "id": "question-how", "greek": "πώς", "english": "how", "type": "adverb" },
-        { "id": "expression-how-are-you-informal", "greek": "Πώς είσαι;", "english": "How are you? (singular, informal)", "type": "expression" },
-        { "id": "expression-how-are-you-polite", "greek": "Πώς είστε;", "english": "How are you? (plural or polite)", "type": "expression" },
-        { "id": "expression-thank-you", "greek": "ευχαριστώ", "english": "thank you", "type": "expression" },
-        { "id": "adverb-very", "greek": "πολύ", "english": "very", "type": "adverb" },
-        { "id": "expression-fine-thanks", "greek": "Καλά, ευχαριστώ.", "english": "Fine, thank you.", "type": "expression" },
-        { "id": "expression-very-well-thanks", "greek": "Πολύ καλά, ευχαριστώ.", "english": "Very well, thank you.", "type": "expression" },
-        { "id": "expression-and-you-informal", "greek": "Εσύ;", "english": "And you? (singular, informal)", "type": "expression" },
-        { "id": "expression-and-you-polite", "greek": "Εσείς;", "english": "And you? (plural or polite)", "type": "expression" },
-        { "id": "expression-goodbye", "greek": "Αντίο!", "english": "Goodbye!", "type": "expression" },
-        { "id": "expression-have-good-evening", "greek": "Καλό βράδυ!", "english": "Have a good evening!", "type": "expression", "note": "Taught as a whole expression; its component words are not separately introduced." },
-        { "id": "expression-good-night", "greek": "Καληνύχτα!", "english": "Good night!", "type": "expression" }
+        {
+          "id": "expression-hello-informal",
+          "greek": "Γεια σου!",
+          "english": "Hello! / Hi! / Bye! (singular, informal)",
+          "type": "expression"
+        },
+        {
+          "id": "expression-hello-polite",
+          "greek": "Γεια σας!",
+          "english": "Hello! / Bye! (plural or polite)",
+          "type": "expression"
+        },
+        {
+          "id": "expression-good-morning",
+          "greek": "Καλημέρα!",
+          "english": "Good morning!",
+          "type": "expression"
+        },
+        {
+          "id": "expression-good-evening",
+          "greek": "Καλησπέρα!",
+          "english": "Good afternoon! / Good evening!",
+          "type": "expression"
+        },
+        {
+          "id": "question-how",
+          "greek": "πώς",
+          "english": "how",
+          "type": "adverb"
+        },
+        {
+          "id": "expression-how-are-you-informal",
+          "greek": "Πώς είσαι;",
+          "english": "How are you? (singular, informal)",
+          "type": "expression"
+        },
+        {
+          "id": "expression-how-are-you-polite",
+          "greek": "Πώς είστε;",
+          "english": "How are you? (plural or polite)",
+          "type": "expression"
+        },
+        {
+          "id": "expression-thank-you",
+          "greek": "ευχαριστώ",
+          "english": "thank you",
+          "type": "expression"
+        },
+        {
+          "id": "adverb-very",
+          "greek": "πολύ",
+          "english": "very",
+          "type": "adverb"
+        },
+        {
+          "id": "adverb-well",
+          "greek": "καλά",
+          "english": "well / fine",
+          "type": "adverb"
+        },
+        {
+          "id": "expression-fine-thanks",
+          "greek": "Καλά, ευχαριστώ.",
+          "english": "Fine, thank you.",
+          "type": "expression"
+        },
+        {
+          "id": "expression-very-well-thanks",
+          "greek": "Πολύ καλά, ευχαριστώ.",
+          "english": "Very well, thank you.",
+          "type": "expression"
+        },
+        {
+          "id": "expression-and-you-informal",
+          "greek": "Εσύ;",
+          "english": "And you? (singular, informal)",
+          "type": "expression"
+        },
+        {
+          "id": "expression-and-you-polite",
+          "greek": "Εσείς;",
+          "english": "And you? (plural or polite)",
+          "type": "expression"
+        },
+        {
+          "id": "expression-goodbye",
+          "greek": "Αντίο!",
+          "english": "Goodbye!",
+          "type": "expression"
+        },
+        {
+          "id": "expression-have-good-evening",
+          "greek": "Καλό βράδυ!",
+          "english": "Have a good evening!",
+          "type": "expression",
+          "note": "Taught as a whole expression; its component words are not separately introduced."
+        },
+        {
+          "id": "expression-good-night",
+          "greek": "Καληνύχτα!",
+          "english": "Good night!",
+          "type": "expression"
+        }
       ],
       "newForms": []
     },
     {
+      "lessonId": "power-tools",
+      "newItems": [
+        {
+          "id": "verb-learn",
+          "greek": "μαθαίνω",
+          "english": "to learn",
+          "type": "verb"
+        },
+        {
+          "id": "verb-practise",
+          "greek": "εξασκούμαι",
+          "english": "to practise",
+          "type": "verb"
+        },
+        {
+          "id": "verb-understand",
+          "greek": "καταλαβαίνω",
+          "forms": [
+            "καταλαβαίνω",
+            "καταλαβαίνεις",
+            "καταλαβαίνει",
+            "καταλαβαίνουμε",
+            "καταλαβαίνετε",
+            "καταλαβαίνουν"
+          ],
+          "english": "to understand",
+          "type": "verb"
+        },
+        {
+          "id": "verb-speak",
+          "greek": "μιλάω",
+          "forms": [
+            "μιλάω",
+            "μιλάς",
+            "μιλάει",
+            "μιλάμε",
+            "μιλάτε",
+            "μιλάνε"
+          ],
+          "english": "to speak",
+          "type": "verb"
+        },
+        {
+          "id": "verb-repeat",
+          "greek": "επαναλαμβάνω",
+          "english": "to repeat",
+          "type": "verb"
+        },
+        {
+          "id": "verb-say",
+          "greek": "λέω",
+          "english": "to say",
+          "type": "verb"
+        },
+        {
+          "id": "verb-mean",
+          "greek": "σημαίνω",
+          "english": "to mean",
+          "type": "verb"
+        },
+        {
+          "id": "verb-write",
+          "greek": "γράφω",
+          "english": "to write",
+          "type": "verb"
+        },
+        {
+          "id": "expression-speak-english",
+          "greek": "Μιλάτε αγγλικά;",
+          "english": "Do you speak English? (polite or plural)",
+          "type": "expression"
+        },
+        {
+          "id": "expression-sorry",
+          "greek": "Συγγνώμη",
+          "english": "sorry / excuse me",
+          "type": "expression"
+        },
+        {
+          "id": "adverb-slowly",
+          "greek": "αργά",
+          "english": "slowly",
+          "type": "adverb"
+        },
+        {
+          "id": "adverb-again",
+          "greek": "ξανά",
+          "english": "again",
+          "type": "adverb"
+        },
+        {
+          "id": "question-what",
+          "greek": "τι",
+          "english": "what",
+          "type": "question word"
+        },
+        {
+          "id": "expression-how-say",
+          "greek": "Πώς λέμε … στα ελληνικά;",
+          "english": "How do we say … in Greek?",
+          "type": "expression"
+        }
+      ],
+      "newForms": [],
+      "reviewItems": [
+        "particle-not",
+        "question-how",
+        "expression-thank-you",
+        "language-greek"
+      ]
+    },
+    {
       "lessonId": "present-tense-beginners",
       "newItems": [
-        { "id": "verb-drink", "greek": "πίνω", "forms": ["πίνω", "πίνεις", "πίνει", "πίνουμε", "πίνετε", "πίνουν", "πίνουνε"], "english": "to drink", "type": "verb" },
-        { "id": "verb-live-stay", "greek": "μένω", "forms": ["μένω", "μένεις", "μένει", "μένουμε", "μένετε", "μένουν", "μένουνε"], "english": "to live / stay", "type": "verb" },
-        { "id": "verb-have", "greek": "έχω", "forms": ["έχω", "έχεις", "έχει", "έχουμε", "έχετε", "έχουν", "έχουνε"], "english": "to have", "type": "verb" },
-        { "id": "noun-water", "greek": "νερό", "article": "το", "gender": "neuter", "english": "water", "type": "noun" },
-        { "id": "adverb-now", "greek": "τώρα", "english": "now", "type": "adverb" },
-        { "id": "expression-every-day", "greek": "κάθε μέρα", "english": "every day", "type": "expression" },
-        { "id": "noun-car", "greek": "αυτοκίνητο", "article": "το", "gender": "neuter", "english": "car", "type": "noun" },
-        { "id": "place-greece", "greek": "Ελλάδα", "article": "η", "gender": "feminine", "english": "Greece", "type": "proper noun" },
-        { "id": "place-athens", "greek": "Αθήνα", "article": "η", "gender": "feminine", "english": "Athens", "type": "proper noun" },
-        { "id": "name-maria", "greek": "Μαρία", "article": "η", "gender": "feminine", "english": "Maria", "type": "proper noun", "flashcard": false },
-        { "id": "expression-in-greece", "greek": "στην Ελλάδα", "english": "in Greece", "type": "expression", "note": "Introduced as a whole expression. The preposition σε and its contractions are explained in Where are you going?" },
-        { "id": "expression-in-athens", "greek": "στην Αθήνα", "english": "in Athens", "type": "expression", "note": "Introduced as a whole expression. The preposition σε and its contractions are explained in Where are you going?" }
+        {
+          "id": "verb-see",
+          "greek": "βλέπω",
+          "forms": [
+            "βλέπω",
+            "βλέπεις",
+            "βλέπει",
+            "βλέπουμε",
+            "βλέπετε",
+            "βλέπουν",
+            "βλέπουνε"
+          ],
+          "english": "to see",
+          "type": "verb"
+        },
+        {
+          "id": "verb-have",
+          "greek": "έχω",
+          "forms": [
+            "έχω",
+            "έχεις",
+            "έχει",
+            "έχουμε",
+            "έχετε",
+            "έχουν",
+            "έχουνε"
+          ],
+          "english": "to have",
+          "type": "verb"
+        },
+        {
+          "id": "name-maria",
+          "greek": "Μαρία",
+          "article": "η",
+          "gender": "feminine",
+          "english": "Maria",
+          "type": "proper noun",
+          "flashcard": false
+        }
       ],
       "newForms": []
     },
     {
       "lessonId": "accusative",
-      "newItems": [
-        { "id": "noun-juice", "greek": "χυμός", "article": "ο", "gender": "masculine", "forms": ["χυμός", "χυμό"], "english": "juice", "type": "noun" },
-        { "id": "noun-bag", "greek": "τσάντα", "article": "η", "gender": "feminine", "english": "bag", "type": "noun" },
-        { "id": "noun-pencil", "greek": "μολύβι", "article": "το", "gender": "neuter", "english": "pencil", "type": "noun" }
-      ],
+      "newItems": [],
       "newForms": [
-        { "itemId": "article-the-masculine", "forms": ["τον"], "note": "Singular accusative." },
-        { "itemId": "article-the-feminine", "forms": ["τη", "την"], "note": "Singular accusative, including the final -ν rule." },
-        { "itemId": "article-a-masculine", "forms": ["έναν"], "note": "Singular accusative." },
-        { "itemId": "noun-dog", "forms": ["σκύλο"], "note": "Singular accusative." },
-        { "itemId": "noun-friend-male", "forms": ["φίλο"], "note": "Singular accusative, shown in the ending explanation." }
+        {
+          "itemId": "article-the-masculine",
+          "forms": [
+            "τον"
+          ],
+          "note": "Singular accusative."
+        },
+        {
+          "itemId": "article-the-feminine",
+          "forms": [
+            "τη",
+            "την"
+          ],
+          "note": "Singular accusative, including the final -ν rule."
+        },
+        {
+          "itemId": "article-a-masculine",
+          "forms": [
+            "έναν"
+          ],
+          "note": "Singular accusative."
+        },
+        {
+          "itemId": "noun-dog",
+          "forms": [
+            "σκύλο"
+          ],
+          "note": "Singular accusative."
+        },
+        {
+          "itemId": "noun-cell-phone",
+          "forms": [
+            "κινητό"
+          ],
+          "note": "Singular accusative, shown in the ending explanation."
+        }
       ]
     },
     {
       "lessonId": "plurals",
       "newItems": [],
       "newForms": [
-        { "itemId": "article-the-masculine", "forms": ["οι", "τους"], "note": "Plural nominative and accusative." },
-        { "itemId": "article-the-feminine", "forms": ["οι", "τις"], "note": "Plural nominative and accusative." },
-        { "itemId": "article-the-neuter", "forms": ["τα"], "note": "Plural nominative and accusative." },
-        { "itemId": "noun-dog", "forms": ["σκύλοι", "σκύλους"], "note": "Plural nominative and accusative." },
-        { "itemId": "noun-cat", "forms": ["γάτες"], "note": "Plural nominative and accusative." },
-        { "itemId": "noun-friend-female", "forms": ["φίλες"], "note": "Plural nominative." },
-        { "itemId": "noun-book", "forms": ["βιβλία"], "note": "Plural nominative and accusative." },
-        { "itemId": "noun-house", "forms": ["σπίτια"], "note": "Plural nominative." },
-        { "itemId": "noun-child", "forms": ["παιδιά"], "note": "Plural nominative." },
-        { "itemId": "noun-bag", "forms": ["τσάντες"], "note": "Plural nominative and accusative." },
-        { "itemId": "noun-pencil", "forms": ["μολύβια"], "note": "Plural nominative, encountered in practice." },
-        { "itemId": "noun-door", "forms": ["πόρτες"], "note": "Plural accusative." },
-        { "itemId": "noun-juice", "forms": ["χυμούς"], "note": "Plural accusative." }
+        {
+          "itemId": "article-the-masculine",
+          "forms": [
+            "οι",
+            "τους"
+          ],
+          "note": "Plural nominative and accusative."
+        },
+        {
+          "itemId": "article-the-feminine",
+          "forms": [
+            "οι",
+            "τις"
+          ],
+          "note": "Plural nominative and accusative."
+        },
+        {
+          "itemId": "article-the-neuter",
+          "forms": [
+            "τα"
+          ],
+          "note": "Plural nominative and accusative."
+        },
+        {
+          "itemId": "noun-dog",
+          "forms": [
+            "σκύλοι",
+            "σκύλους"
+          ],
+          "note": "Plural nominative and accusative."
+        },
+        {
+          "itemId": "noun-cat",
+          "forms": [
+            "γάτες"
+          ],
+          "note": "Plural nominative and accusative."
+        },
+        {
+          "itemId": "noun-chair",
+          "forms": [
+            "καρέκλες"
+          ],
+          "note": "Plural nominative."
+        },
+        {
+          "itemId": "noun-book",
+          "forms": [
+            "βιβλία"
+          ],
+          "note": "Plural nominative and accusative."
+        },
+        {
+          "itemId": "noun-house",
+          "forms": [
+            "σπίτια"
+          ],
+          "note": "Plural nominative."
+        },
+        {
+          "itemId": "noun-child",
+          "forms": [
+            "παιδιά"
+          ],
+          "note": "Plural nominative."
+        },
+        {
+          "itemId": "noun-bag",
+          "forms": [
+            "τσάντες"
+          ],
+          "note": "Plural nominative and accusative."
+        },
+        {
+          "itemId": "noun-door",
+          "forms": [
+            "πόρτες"
+          ],
+          "note": "Plural accusative."
+        }
       ]
     },
     {
       "lessonId": "numbers-1-20",
       "newItems": [
-        { "id": "number-one", "greek": "ένα", "forms": ["ένας", "έναν", "μία", "μια", "ένα"], "english": "one", "type": "number", "note": "Previously introduced as an indefinite article; now explicitly taught as a number." },
-        { "id": "number-two", "greek": "δύο", "english": "two", "type": "number" },
-        { "id": "number-three", "greek": "τρία", "forms": ["τρεις", "τρία"], "english": "three", "type": "number" },
-        { "id": "number-four", "greek": "τέσσερα", "forms": ["τέσσερις", "τέσσερα"], "english": "four", "type": "number" },
-        { "id": "number-five", "greek": "πέντε", "english": "five", "type": "number" },
-        { "id": "number-six", "greek": "έξι", "english": "six", "type": "number" },
-        { "id": "number-seven", "greek": "επτά", "forms": ["επτά", "εφτά"], "english": "seven", "type": "number" },
-        { "id": "number-eight", "greek": "οκτώ", "forms": ["οκτώ", "οχτώ"], "english": "eight", "type": "number" },
-        { "id": "number-nine", "greek": "εννέα", "forms": ["εννέα", "εννιά"], "english": "nine", "type": "number" },
-        { "id": "number-ten", "greek": "δέκα", "english": "ten", "type": "number" },
-        { "id": "number-eleven", "greek": "έντεκα", "english": "eleven", "type": "number" },
-        { "id": "number-twelve", "greek": "δώδεκα", "english": "twelve", "type": "number" },
-        { "id": "number-thirteen", "greek": "δεκατρία", "forms": ["δεκατρείς", "δεκατρία"], "english": "thirteen", "type": "number" },
-        { "id": "number-fourteen", "greek": "δεκατέσσερα", "forms": ["δεκατέσσερις", "δεκατέσσερα"], "english": "fourteen", "type": "number" },
-        { "id": "number-fifteen", "greek": "δεκαπέντε", "english": "fifteen", "type": "number" },
-        { "id": "number-sixteen", "greek": "δεκαέξι", "english": "sixteen", "type": "number" },
-        { "id": "number-seventeen", "greek": "δεκαεπτά", "forms": ["δεκαεπτά", "δεκαεφτά"], "english": "seventeen", "type": "number" },
-        { "id": "number-eighteen", "greek": "δεκαοκτώ", "forms": ["δεκαοκτώ", "δεκαοχτώ"], "english": "eighteen", "type": "number" },
-        { "id": "number-nineteen", "greek": "δεκαεννέα", "forms": ["δεκαεννέα", "δεκαεννιά"], "english": "nineteen", "type": "number" },
-        { "id": "number-twenty", "greek": "είκοσι", "english": "twenty", "type": "number" },
-        { "id": "noun-euro", "greek": "ευρώ", "article": "το", "gender": "neuter", "english": "euro", "type": "noun", "note": "Unchanged in the plural." }
+        {
+          "id": "number-one",
+          "greek": "ένα",
+          "forms": [
+            "ένας",
+            "έναν",
+            "μία",
+            "μια",
+            "ένα"
+          ],
+          "english": "one",
+          "type": "number",
+          "note": "Previously introduced as an indefinite article; now explicitly taught as a number."
+        },
+        {
+          "id": "number-two",
+          "greek": "δύο",
+          "english": "two",
+          "type": "number"
+        },
+        {
+          "id": "number-three",
+          "greek": "τρία",
+          "forms": [
+            "τρεις",
+            "τρία"
+          ],
+          "english": "three",
+          "type": "number"
+        },
+        {
+          "id": "number-four",
+          "greek": "τέσσερα",
+          "forms": [
+            "τέσσερις",
+            "τέσσερα"
+          ],
+          "english": "four",
+          "type": "number"
+        },
+        {
+          "id": "number-five",
+          "greek": "πέντε",
+          "english": "five",
+          "type": "number"
+        },
+        {
+          "id": "number-six",
+          "greek": "έξι",
+          "english": "six",
+          "type": "number"
+        },
+        {
+          "id": "number-seven",
+          "greek": "επτά",
+          "forms": [
+            "επτά",
+            "εφτά"
+          ],
+          "english": "seven",
+          "type": "number"
+        },
+        {
+          "id": "number-eight",
+          "greek": "οκτώ",
+          "forms": [
+            "οκτώ",
+            "οχτώ"
+          ],
+          "english": "eight",
+          "type": "number"
+        },
+        {
+          "id": "number-nine",
+          "greek": "εννέα",
+          "forms": [
+            "εννέα",
+            "εννιά"
+          ],
+          "english": "nine",
+          "type": "number"
+        },
+        {
+          "id": "number-ten",
+          "greek": "δέκα",
+          "english": "ten",
+          "type": "number"
+        },
+        {
+          "id": "number-eleven",
+          "greek": "έντεκα",
+          "english": "eleven",
+          "type": "number"
+        },
+        {
+          "id": "number-twelve",
+          "greek": "δώδεκα",
+          "english": "twelve",
+          "type": "number"
+        },
+        {
+          "id": "number-thirteen",
+          "greek": "δεκατρία",
+          "forms": [
+            "δεκατρείς",
+            "δεκατρία"
+          ],
+          "english": "thirteen",
+          "type": "number"
+        },
+        {
+          "id": "number-fourteen",
+          "greek": "δεκατέσσερα",
+          "forms": [
+            "δεκατέσσερις",
+            "δεκατέσσερα"
+          ],
+          "english": "fourteen",
+          "type": "number"
+        },
+        {
+          "id": "number-fifteen",
+          "greek": "δεκαπέντε",
+          "english": "fifteen",
+          "type": "number"
+        },
+        {
+          "id": "number-sixteen",
+          "greek": "δεκαέξι",
+          "english": "sixteen",
+          "type": "number"
+        },
+        {
+          "id": "number-seventeen",
+          "greek": "δεκαεπτά",
+          "forms": [
+            "δεκαεπτά",
+            "δεκαεφτά"
+          ],
+          "english": "seventeen",
+          "type": "number"
+        },
+        {
+          "id": "number-eighteen",
+          "greek": "δεκαοκτώ",
+          "forms": [
+            "δεκαοκτώ",
+            "δεκαοχτώ"
+          ],
+          "english": "eighteen",
+          "type": "number"
+        },
+        {
+          "id": "number-nineteen",
+          "greek": "δεκαεννέα",
+          "forms": [
+            "δεκαεννέα",
+            "δεκαεννιά"
+          ],
+          "english": "nineteen",
+          "type": "number"
+        },
+        {
+          "id": "number-twenty",
+          "greek": "είκοσι",
+          "english": "twenty",
+          "type": "number"
+        }
       ],
       "newForms": [
-        { "itemId": "noun-friend-male", "forms": ["φίλοι"], "note": "Plural nominative, encountered in examples and practice." }
+        {
+          "itemId": "noun-cell-phone",
+          "forms": [
+            "κινητά"
+          ],
+          "note": "Plural nominative, encountered in examples and practice."
+        }
       ]
     },
     {
       "lessonId": "food-and-drink",
       "newItems": [
-        { "id": "noun-bread", "greek": "ψωμί", "article": "το", "gender": "neuter", "english": "bread", "type": "noun" },
-        { "id": "noun-cheese", "greek": "τυρί", "article": "το", "gender": "neuter", "english": "cheese", "type": "noun" },
-        { "id": "noun-egg", "greek": "αυγό", "forms": ["αυγό", "αυγά"], "article": "το", "gender": "neuter", "english": "egg", "type": "noun" },
-        { "id": "noun-chicken", "greek": "κοτόπουλο", "article": "το", "gender": "neuter", "english": "chicken", "type": "noun" },
-        { "id": "noun-rice", "greek": "ρύζι", "article": "το", "gender": "neuter", "english": "rice", "type": "noun" },
-        { "id": "noun-salad", "greek": "σαλάτα", "article": "η", "gender": "feminine", "english": "salad", "type": "noun" },
-        { "id": "noun-chocolate", "greek": "σοκολάτα", "article": "η", "gender": "feminine", "english": "chocolate", "type": "noun" },
-        { "id": "noun-apple", "greek": "μήλο", "forms": ["μήλο", "μήλα"], "article": "το", "gender": "neuter", "english": "apple", "type": "noun" },
-        { "id": "noun-banana", "greek": "μπανάνα", "forms": ["μπανάνα", "μπανάνες"], "article": "η", "gender": "feminine", "english": "banana", "type": "noun" },
-        { "id": "noun-orange", "greek": "πορτοκάλι", "forms": ["πορτοκάλι", "πορτοκάλια"], "article": "το", "gender": "neuter", "english": "orange (fruit)", "type": "noun" },
-        { "id": "noun-tomato", "greek": "ντομάτα", "forms": ["ντομάτα", "ντομάτες"], "article": "η", "gender": "feminine", "english": "tomato", "type": "noun" },
-        { "id": "noun-potato", "greek": "πατάτα", "forms": ["πατάτα", "πατάτες"], "article": "η", "gender": "feminine", "english": "potato", "type": "noun" },
-        { "id": "noun-coffee", "greek": "καφές", "forms": ["καφές", "καφέ"], "article": "ο", "gender": "masculine", "english": "coffee", "type": "noun", "note": "Singular only in this lesson; καφέ is the accusative." },
-        { "id": "noun-milk", "greek": "γάλα", "article": "το", "gender": "neuter", "english": "milk", "type": "noun" },
-        { "id": "noun-tea", "greek": "τσάι", "article": "το", "gender": "neuter", "english": "tea", "type": "noun" },
-        { "id": "verb-eat", "greek": "τρώω", "forms": ["τρώω", "τρως", "τρώει", "τρώμε", "τρώτε", "τρώνε"], "english": "to eat", "type": "verb" },
-        { "id": "verb-want", "greek": "θέλω", "forms": ["θέλω", "θέλεις", "θέλει", "θέλουμε", "θέλετε", "θέλουν", "θέλουνε"], "english": "to want", "type": "verb" }
+        {
+          "id": "noun-bread",
+          "greek": "ψωμί",
+          "article": "το",
+          "gender": "neuter",
+          "english": "bread",
+          "type": "noun"
+        },
+        {
+          "id": "noun-cheese",
+          "greek": "τυρί",
+          "article": "το",
+          "gender": "neuter",
+          "english": "cheese",
+          "type": "noun"
+        },
+        {
+          "id": "noun-egg",
+          "greek": "αυγό",
+          "forms": [
+            "αυγό",
+            "αυγά"
+          ],
+          "article": "το",
+          "gender": "neuter",
+          "english": "egg",
+          "type": "noun"
+        },
+        {
+          "id": "noun-chicken",
+          "greek": "κοτόπουλο",
+          "article": "το",
+          "gender": "neuter",
+          "english": "chicken",
+          "type": "noun"
+        },
+        {
+          "id": "noun-rice",
+          "greek": "ρύζι",
+          "article": "το",
+          "gender": "neuter",
+          "english": "rice",
+          "type": "noun"
+        },
+        {
+          "id": "noun-salad",
+          "greek": "σαλάτα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "salad",
+          "type": "noun"
+        },
+        {
+          "id": "noun-chocolate",
+          "greek": "σοκολάτα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "chocolate",
+          "type": "noun"
+        },
+        {
+          "id": "noun-apple",
+          "greek": "μήλο",
+          "forms": [
+            "μήλο",
+            "μήλα"
+          ],
+          "article": "το",
+          "gender": "neuter",
+          "english": "apple",
+          "type": "noun"
+        },
+        {
+          "id": "noun-banana",
+          "greek": "μπανάνα",
+          "forms": [
+            "μπανάνα",
+            "μπανάνες"
+          ],
+          "article": "η",
+          "gender": "feminine",
+          "english": "banana",
+          "type": "noun"
+        },
+        {
+          "id": "noun-orange",
+          "greek": "πορτοκάλι",
+          "forms": [
+            "πορτοκάλι",
+            "πορτοκάλια"
+          ],
+          "article": "το",
+          "gender": "neuter",
+          "english": "orange (fruit)",
+          "type": "noun"
+        },
+        {
+          "id": "noun-tomato",
+          "greek": "ντομάτα",
+          "forms": [
+            "ντομάτα",
+            "ντομάτες"
+          ],
+          "article": "η",
+          "gender": "feminine",
+          "english": "tomato",
+          "type": "noun"
+        },
+        {
+          "id": "noun-potato",
+          "greek": "πατάτα",
+          "forms": [
+            "πατάτα",
+            "πατάτες"
+          ],
+          "article": "η",
+          "gender": "feminine",
+          "english": "potato",
+          "type": "noun"
+        },
+        {
+          "id": "noun-milk",
+          "greek": "γάλα",
+          "article": "το",
+          "gender": "neuter",
+          "english": "milk",
+          "type": "noun"
+        },
+        {
+          "id": "noun-tea",
+          "greek": "τσάι",
+          "article": "το",
+          "gender": "neuter",
+          "english": "tea",
+          "type": "noun"
+        },
+        {
+          "id": "noun-coffee",
+          "greek": "καφές",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "coffee",
+          "type": "noun"
+        },
+        {
+          "id": "noun-juice",
+          "greek": "χυμός",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "juice",
+          "type": "noun"
+        },
+        {
+          "id": "verb-eat",
+          "greek": "τρώω",
+          "forms": [
+            "τρώω",
+            "τρως",
+            "τρώει",
+            "τρώμε",
+            "τρώτε",
+            "τρώνε"
+          ],
+          "english": "to eat",
+          "type": "verb"
+        },
+        {
+          "id": "verb-drink",
+          "greek": "πίνω",
+          "forms": [
+            "πίνω",
+            "πίνεις",
+            "πίνει",
+            "πίνουμε",
+            "πίνετε",
+            "πίνουν",
+            "πίνουνε"
+          ],
+          "english": "to drink",
+          "type": "verb"
+        }
       ],
       "newForms": []
     },
     {
+      "lessonId": "family-vocabulary",
+      "newItems": [
+        {
+          "id": "noun-mother",
+          "greek": "μητέρα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "mother",
+          "type": "noun"
+        },
+        {
+          "id": "noun-father",
+          "greek": "πατέρας",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "father",
+          "type": "noun",
+          "note": "Only the nominative form is used in this lesson."
+        },
+        {
+          "id": "noun-brother",
+          "greek": "αδελφός",
+          "forms": [
+            "αδελφός",
+            "αδελφό",
+            "αδελφοί",
+            "αδερφός"
+          ],
+          "article": "ο",
+          "gender": "masculine",
+          "english": "brother",
+          "type": "noun",
+          "note": "αδερφός is also mentioned as an alternative spelling."
+        },
+        {
+          "id": "noun-sister",
+          "greek": "αδελφή",
+          "forms": [
+            "αδελφή",
+            "αδελφές",
+            "αδερφή"
+          ],
+          "article": "η",
+          "gender": "feminine",
+          "english": "sister",
+          "type": "noun",
+          "note": "αδερφή is also mentioned as an alternative spelling."
+        },
+        {
+          "id": "noun-son",
+          "greek": "γιος",
+          "forms": [
+            "γιος",
+            "γιοι",
+            "γιους"
+          ],
+          "article": "ο",
+          "gender": "masculine",
+          "english": "son",
+          "type": "noun"
+        },
+        {
+          "id": "noun-daughter",
+          "greek": "κόρη",
+          "forms": [
+            "κόρη",
+            "κόρες"
+          ],
+          "article": "η",
+          "gender": "feminine",
+          "english": "daughter",
+          "type": "noun"
+        },
+        {
+          "id": "noun-parents",
+          "greek": "γονείς",
+          "article": "οι",
+          "gender": "plural",
+          "english": "parents",
+          "type": "noun"
+        },
+        {
+          "id": "noun-child",
+          "greek": "παιδί",
+          "forms": [
+            "παιδί",
+            "παιδιά"
+          ],
+          "article": "το",
+          "gender": "neuter",
+          "english": "child / children",
+          "type": "noun"
+        },
+        {
+          "id": "noun-grandfather",
+          "greek": "παππούς",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "grandfather",
+          "type": "noun"
+        },
+        {
+          "id": "noun-grandmother",
+          "greek": "γιαγιά",
+          "article": "η",
+          "gender": "feminine",
+          "english": "grandmother",
+          "type": "noun"
+        },
+        {
+          "id": "noun-uncle",
+          "greek": "θείος",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "uncle",
+          "type": "noun"
+        },
+        {
+          "id": "noun-aunt",
+          "greek": "θεία",
+          "article": "η",
+          "gender": "feminine",
+          "english": "aunt",
+          "type": "noun"
+        },
+        {
+          "id": "noun-cousin-male",
+          "greek": "ξάδελφος",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "male cousin",
+          "type": "noun"
+        },
+        {
+          "id": "noun-cousin-female",
+          "greek": "ξαδέλφη",
+          "article": "η",
+          "gender": "feminine",
+          "english": "female cousin",
+          "type": "noun"
+        },
+        {
+          "id": "noun-baby",
+          "greek": "μωρό",
+          "article": "το",
+          "forms": [
+            "μωρό",
+            "μωρά"
+          ],
+          "gender": "neuter",
+          "english": "baby / babies",
+          "type": "noun"
+        }
+      ],
+      "newForms": [],
+      "reviewItems": [
+        "verb-be",
+        "verb-have",
+        "verb-drink",
+        "verb-live-stay"
+      ]
+    },
+    {
       "lessonId": "possessives-my-your",
       "newItems": [
-        { "id": "noun-mother", "greek": "μητέρα", "article": "η", "gender": "feminine", "english": "mother", "type": "noun" },
-        { "id": "noun-father", "greek": "πατέρας", "article": "ο", "gender": "masculine", "english": "father", "type": "noun", "note": "Only the nominative form is used in this lesson." },
-        { "id": "noun-brother", "greek": "αδελφός", "forms": ["αδελφός", "αδελφό", "αδελφοί", "αδερφός"], "article": "ο", "gender": "masculine", "english": "brother", "type": "noun", "note": "αδερφός is also mentioned as an alternative spelling." },
-        { "id": "noun-sister", "greek": "αδελφή", "forms": ["αδελφή", "αδελφές", "αδερφή"], "article": "η", "gender": "feminine", "english": "sister", "type": "noun", "note": "αδερφή is also mentioned as an alternative spelling." },
-        { "id": "noun-son", "greek": "γιος", "forms": ["γιος", "γιοι", "γιους"], "article": "ο", "gender": "masculine", "english": "son", "type": "noun" },
-        { "id": "noun-daughter", "greek": "κόρη", "forms": ["κόρη", "κόρες"], "article": "η", "gender": "feminine", "english": "daughter", "type": "noun" },
-        { "id": "possessive-my", "greek": "μου", "english": "my", "type": "possessive", "note": "Used after a noun." },
-        { "id": "possessive-your-singular", "greek": "σου", "english": "your (singular, informal)", "type": "possessive", "note": "Used after a noun. Previously encountered only inside the whole expression Γεια σου." }
+        {
+          "id": "possessive-my",
+          "greek": "μου",
+          "english": "my",
+          "type": "possessive",
+          "note": "Used after a noun."
+        },
+        {
+          "id": "possessive-your-singular",
+          "greek": "σου",
+          "english": "your (singular, informal)",
+          "type": "possessive",
+          "note": "Used after a noun. Previously encountered only inside the whole expression Γεια σου."
+        },
+        {
+          "id": "possessive-his",
+          "greek": "του",
+          "english": "his / its",
+          "type": "possessive",
+          "note": "Used after a noun."
+        },
+        {
+          "id": "possessive-her",
+          "greek": "της",
+          "english": "her",
+          "type": "possessive",
+          "note": "Used after a noun."
+        },
+        {
+          "id": "possessive-our",
+          "greek": "μας",
+          "english": "our",
+          "type": "possessive",
+          "note": "Used after a noun."
+        },
+        {
+          "id": "possessive-your-plural",
+          "greek": "σας",
+          "english": "your (plural or polite)",
+          "type": "possessive",
+          "note": "Used after a noun."
+        },
+        {
+          "id": "possessive-their",
+          "greek": "τους",
+          "english": "their",
+          "type": "possessive",
+          "note": "Used after a noun."
+        }
       ],
       "newForms": []
     },
     {
       "lessonId": "adjectives",
       "newItems": [
-        { "id": "adjective-small", "greek": "μικρός", "forms": ["μικρός", "μικρή", "μικρό", "μικροί", "μικρές", "μικρά", "μικρούς"], "english": "small", "type": "adjective" },
-        { "id": "adjective-big", "greek": "μεγάλος", "forms": ["μεγάλος", "μεγάλη", "μεγάλο", "μεγάλοι", "μεγάλες", "μεγάλα"], "english": "big / large", "type": "adjective" },
-        { "id": "adjective-good", "greek": "καλός", "forms": ["καλός", "καλή", "καλό", "καλοί", "καλές", "καλά"], "english": "good", "type": "adjective", "note": "Neuter plural καλά is distinct from the already taught adverb καλά meaning well." },
-        { "id": "adjective-new", "greek": "καινούριος", "forms": ["καινούριος", "καινούρια", "καινούριο", "καινούριοι", "καινούριες"], "english": "new", "type": "adjective" }
+        {
+          "id": "adjective-small",
+          "greek": "μικρός",
+          "forms": [
+            "μικρός",
+            "μικρή",
+            "μικρό",
+            "μικροί",
+            "μικρές",
+            "μικρά",
+            "μικρούς"
+          ],
+          "english": "small",
+          "type": "adjective"
+        },
+        {
+          "id": "adjective-big",
+          "greek": "μεγάλος",
+          "forms": [
+            "μεγάλος",
+            "μεγάλη",
+            "μεγάλο",
+            "μεγάλοι",
+            "μεγάλες",
+            "μεγάλα"
+          ],
+          "english": "big / large",
+          "type": "adjective"
+        },
+        {
+          "id": "adjective-good",
+          "greek": "καλός",
+          "forms": [
+            "καλός",
+            "καλή",
+            "καλό",
+            "καλοί",
+            "καλές",
+            "καλά"
+          ],
+          "english": "good",
+          "type": "adjective",
+          "note": "Neuter plural καλά is distinct from the already taught adverb καλά meaning well."
+        },
+        {
+          "id": "adjective-clean",
+          "greek": "καθαρός",
+          "forms": [
+            "καθαρός",
+            "καθαρή",
+            "καθαρό",
+            "καθαροί",
+            "καθαρές",
+            "καθαρά"
+          ],
+          "english": "clean",
+          "type": "adjective"
+        }
       ],
       "newForms": [
-        { "itemId": "adjective-ready", "forms": ["έτοιμοι", "έτοιμες", "έτοιμα"], "note": "Plural forms." },
-        { "itemId": "adjective-tired", "forms": ["κουρασμένοι", "κουρασμένες", "κουρασμένα"], "note": "Plural forms." },
-        { "itemId": "adjective-happy", "forms": ["χαρούμενοι", "χαρούμενες", "χαρούμενα"], "note": "Plural forms." },
-        { "itemId": "adjective-sad", "forms": ["λυπημένοι", "λυπημένες", "λυπημένα"], "note": "Plural forms." }
+        {
+          "itemId": "adjective-ready",
+          "forms": [
+            "έτοιμοι",
+            "έτοιμες",
+            "έτοιμα"
+          ],
+          "note": "Plural forms."
+        },
+        {
+          "itemId": "adjective-tired",
+          "forms": [
+            "κουρασμένοι",
+            "κουρασμένες",
+            "κουρασμένα"
+          ],
+          "note": "Plural forms."
+        },
+        {
+          "itemId": "adjective-happy",
+          "forms": [
+            "χαρούμενοι",
+            "χαρούμενες",
+            "χαρούμενα"
+          ],
+          "note": "Plural forms."
+        },
+        {
+          "itemId": "adjective-sad",
+          "forms": [
+            "λυπημένοι",
+            "λυπημένες",
+            "λυπημένα"
+          ],
+          "note": "Plural forms."
+        }
       ]
     },
     {
       "lessonId": "numbers-21-100",
       "newItems": [
-        { "id": "number-thirty", "greek": "τριάντα", "english": "thirty", "type": "number" },
-        { "id": "number-forty", "greek": "σαράντα", "english": "forty", "type": "number" },
-        { "id": "number-fifty", "greek": "πενήντα", "english": "fifty", "type": "number" },
-        { "id": "number-sixty", "greek": "εξήντα", "english": "sixty", "type": "number" },
-        { "id": "number-seventy", "greek": "εβδομήντα", "english": "seventy", "type": "number" },
-        { "id": "number-eighty", "greek": "ογδόντα", "english": "eighty", "type": "number" },
-        { "id": "number-ninety", "greek": "ενενήντα", "english": "ninety", "type": "number" },
-        { "id": "number-hundred", "greek": "εκατό", "english": "one hundred", "type": "number" },
-        { "id": "expression-years-old", "greek": "χρονών", "english": "years old (after an age)", "type": "expression", "note": "Genitive plural of χρόνος, learned here as an age expression rather than a full noun paradigm." },
-        { "id": "expression-how-old", "greek": "Πόσων χρονών", "english": "how old (followed by a form of είμαι)", "type": "expression" },
-        { "id": "expression-one-year-old", "greek": "ενός χρόνου", "english": "one year old", "type": "expression" }
+        {
+          "id": "number-thirty",
+          "greek": "τριάντα",
+          "english": "thirty",
+          "type": "number"
+        },
+        {
+          "id": "number-forty",
+          "greek": "σαράντα",
+          "english": "forty",
+          "type": "number"
+        },
+        {
+          "id": "number-fifty",
+          "greek": "πενήντα",
+          "english": "fifty",
+          "type": "number"
+        },
+        {
+          "id": "number-sixty",
+          "greek": "εξήντα",
+          "english": "sixty",
+          "type": "number"
+        },
+        {
+          "id": "number-seventy",
+          "greek": "εβδομήντα",
+          "english": "seventy",
+          "type": "number"
+        },
+        {
+          "id": "number-eighty",
+          "greek": "ογδόντα",
+          "english": "eighty",
+          "type": "number"
+        },
+        {
+          "id": "number-ninety",
+          "greek": "ενενήντα",
+          "english": "ninety",
+          "type": "number"
+        },
+        {
+          "id": "number-hundred",
+          "greek": "εκατό",
+          "english": "one hundred",
+          "type": "number"
+        },
+        {
+          "id": "expression-years-old",
+          "greek": "χρονών",
+          "english": "years old (after an age)",
+          "type": "expression",
+          "note": "Genitive plural of χρόνος, learned here as an age expression rather than a full noun paradigm."
+        },
+        {
+          "id": "expression-how-old",
+          "greek": "Πόσων χρονών",
+          "english": "how old (followed by a form of είμαι)",
+          "type": "expression"
+        },
+        {
+          "id": "expression-one-year-old",
+          "greek": "ενός χρόνου",
+          "english": "one year old",
+          "type": "expression"
+        }
       ],
       "newForms": [
-        { "itemId": "number-one", "forms": ["ενός"], "note": "Genitive in age expressions, also after tens." },
-        { "itemId": "number-three", "forms": ["τριών"], "note": "Genitive in age expressions, also after tens." },
-        { "itemId": "number-four", "forms": ["τεσσάρων"], "note": "Genitive in age expressions, also after tens." },
-        { "itemId": "number-thirteen", "forms": ["δεκατριών"], "note": "Genitive in age expressions." },
-        { "itemId": "number-fourteen", "forms": ["δεκατεσσάρων"], "note": "Genitive in age expressions." }
+        {
+          "itemId": "number-one",
+          "forms": [
+            "ενός"
+          ],
+          "note": "Genitive in age expressions, also after tens."
+        },
+        {
+          "itemId": "number-three",
+          "forms": [
+            "τριών"
+          ],
+          "note": "Genitive in age expressions, also after tens."
+        },
+        {
+          "itemId": "number-four",
+          "forms": [
+            "τεσσάρων"
+          ],
+          "note": "Genitive in age expressions, also after tens."
+        },
+        {
+          "itemId": "number-thirteen",
+          "forms": [
+            "δεκατριών"
+          ],
+          "note": "Genitive in age expressions."
+        },
+        {
+          "itemId": "number-fourteen",
+          "forms": [
+            "δεκατεσσάρων"
+          ],
+          "note": "Genitive in age expressions."
+        }
       ]
     },
     {
       "lessonId": "where-are-you-from",
       "newItems": [
-        { "id": "place-cyprus", "greek": "Κύπρος", "forms": ["Κύπρος", "Κύπρο"], "article": "η", "gender": "feminine", "english": "Cyprus", "type": "proper noun" },
-        { "id": "place-england", "greek": "Αγγλία", "article": "η", "gender": "feminine", "english": "England", "type": "proper noun" },
-        { "id": "place-france", "greek": "Γαλλία", "article": "η", "gender": "feminine", "english": "France", "type": "proper noun" },
-        { "id": "place-germany", "greek": "Γερμανία", "article": "η", "gender": "feminine", "english": "Germany", "type": "proper noun" },
-        { "id": "place-italy", "greek": "Ιταλία", "article": "η", "gender": "feminine", "english": "Italy", "type": "proper noun" },
-        { "id": "place-spain", "greek": "Ισπανία", "article": "η", "gender": "feminine", "english": "Spain", "type": "proper noun" },
-        { "id": "place-united-states", "greek": "Ηνωμένες Πολιτείες", "article": "οι", "gender": "feminine plural", "english": "United States", "type": "proper noun", "forms": ["Ηνωμένες Πολιτείες", "Ηνωμένων Πολιτειών"] },
-        { "id": "place-united-kingdom", "greek": "Ηνωμένο Βασίλειο", "article": "το", "gender": "neuter", "english": "United Kingdom", "type": "proper noun", "note": "Taught as a whole name." },
-        { "id": "place-canada", "greek": "Καναδάς", "forms": ["Καναδάς", "Καναδά"], "article": "ο", "gender": "masculine", "english": "Canada", "type": "proper noun" },
-        { "id": "place-thessaloniki", "greek": "Θεσσαλονίκη", "article": "η", "gender": "feminine", "english": "Thessaloniki", "type": "proper noun" },
-        { "id": "place-london", "greek": "Λονδίνο", "article": "το", "gender": "neuter", "english": "London", "type": "proper noun" },
-        { "id": "place-new-york", "greek": "Νέα Υόρκη", "article": "η", "gender": "feminine", "english": "New York", "type": "proper noun" },
-        { "id": "preposition-from", "greek": "από", "english": "from", "type": "preposition" },
-        { "id": "question-where", "greek": "πού", "english": "where", "type": "adverb" }
+        {
+          "id": "place-cyprus",
+          "greek": "Κύπρος",
+          "forms": [
+            "Κύπρος",
+            "Κύπρο"
+          ],
+          "article": "η",
+          "gender": "feminine",
+          "english": "Cyprus",
+          "type": "proper noun"
+        },
+        {
+          "id": "place-england",
+          "greek": "Αγγλία",
+          "article": "η",
+          "gender": "feminine",
+          "english": "England",
+          "type": "proper noun"
+        },
+        {
+          "id": "place-france",
+          "greek": "Γαλλία",
+          "article": "η",
+          "gender": "feminine",
+          "english": "France",
+          "type": "proper noun"
+        },
+        {
+          "id": "place-germany",
+          "greek": "Γερμανία",
+          "article": "η",
+          "gender": "feminine",
+          "english": "Germany",
+          "type": "proper noun"
+        },
+        {
+          "id": "place-italy",
+          "greek": "Ιταλία",
+          "article": "η",
+          "gender": "feminine",
+          "english": "Italy",
+          "type": "proper noun"
+        },
+        {
+          "id": "place-spain",
+          "greek": "Ισπανία",
+          "article": "η",
+          "gender": "feminine",
+          "english": "Spain",
+          "type": "proper noun"
+        },
+        {
+          "id": "place-united-states",
+          "greek": "Ηνωμένες Πολιτείες",
+          "article": "οι",
+          "gender": "feminine plural",
+          "english": "United States",
+          "type": "proper noun",
+          "forms": [
+            "Ηνωμένες Πολιτείες",
+            "Ηνωμένων Πολιτειών"
+          ]
+        },
+        {
+          "id": "place-united-kingdom",
+          "greek": "Ηνωμένο Βασίλειο",
+          "article": "το",
+          "gender": "neuter",
+          "english": "United Kingdom",
+          "type": "proper noun",
+          "note": "Taught as a whole name."
+        },
+        {
+          "id": "place-canada",
+          "greek": "Καναδάς",
+          "forms": [
+            "Καναδάς",
+            "Καναδά"
+          ],
+          "article": "ο",
+          "gender": "masculine",
+          "english": "Canada",
+          "type": "proper noun"
+        },
+        {
+          "id": "place-thessaloniki",
+          "greek": "Θεσσαλονίκη",
+          "article": "η",
+          "gender": "feminine",
+          "english": "Thessaloniki",
+          "type": "proper noun"
+        },
+        {
+          "id": "place-london",
+          "greek": "Λονδίνο",
+          "article": "το",
+          "gender": "neuter",
+          "english": "London",
+          "type": "proper noun"
+        },
+        {
+          "id": "place-new-york",
+          "greek": "Νέα Υόρκη",
+          "article": "η",
+          "gender": "feminine",
+          "english": "New York",
+          "type": "proper noun"
+        },
+        {
+          "id": "preposition-from",
+          "greek": "από",
+          "english": "from",
+          "type": "preposition"
+        },
+        {
+          "id": "question-where",
+          "greek": "πού",
+          "english": "where",
+          "type": "adverb"
+        }
       ],
       "newForms": [],
-      "reviewItems": ["place-greece", "verb-be"]
+      "reviewItems": [
+        "place-greece",
+        "verb-be"
+      ]
     },
     {
       "lessonId": "where-are-you-going",
       "newItems": [
-        { "id": "noun-school", "greek": "σχολείο", "forms": ["σχολείο", "σχολεία"], "article": "το", "gender": "neuter", "english": "school", "type": "noun" },
-        { "id": "noun-park", "greek": "πάρκο", "article": "το", "gender": "neuter", "english": "park", "type": "noun" },
-        { "id": "noun-station", "greek": "σταθμός", "forms": ["σταθμός", "σταθμό"], "article": "ο", "gender": "masculine", "english": "station", "type": "noun" },
-        { "id": "noun-supermarket", "greek": "σούπερ μάρκετ", "article": "το", "gender": "neuter", "english": "supermarket", "type": "noun" },
-        { "id": "noun-restaurant", "greek": "εστιατόριο", "article": "το", "gender": "neuter", "english": "restaurant", "type": "noun" },
-        { "id": "noun-bank", "greek": "τράπεζα", "article": "η", "gender": "feminine", "english": "bank", "type": "noun" },
-        { "id": "noun-work", "greek": "δουλειά", "article": "η", "gender": "feminine", "english": "work / job", "type": "noun" },
-        { "id": "verb-go", "greek": "πάω", "forms": ["πάω", "πας", "πάει", "πάμε", "πάτε", "πάνε"], "english": "to go", "type": "verb" },
-        { "id": "preposition-to-in-at", "greek": "σε", "forms": ["σε", "στον", "στη", "στην", "στο", "στους", "στις", "στα"], "english": "to / in / at", "type": "preposition", "note": "Includes contractions with the accusative definite articles. Previously encountered only inside στην Ελλάδα and στην Αθήνα." }
+        {
+          "id": "noun-school",
+          "greek": "σχολείο",
+          "forms": [
+            "σχολείο",
+            "σχολεία"
+          ],
+          "article": "το",
+          "gender": "neuter",
+          "english": "school",
+          "type": "noun"
+        },
+        {
+          "id": "noun-park",
+          "greek": "πάρκο",
+          "article": "το",
+          "gender": "neuter",
+          "english": "park",
+          "type": "noun"
+        },
+        {
+          "id": "noun-station",
+          "greek": "σταθμός",
+          "forms": [
+            "σταθμός",
+            "σταθμό"
+          ],
+          "article": "ο",
+          "gender": "masculine",
+          "english": "station",
+          "type": "noun"
+        },
+        {
+          "id": "noun-supermarket",
+          "greek": "σούπερ μάρκετ",
+          "article": "το",
+          "gender": "neuter",
+          "english": "supermarket",
+          "type": "noun"
+        },
+        {
+          "id": "noun-restaurant",
+          "greek": "εστιατόριο",
+          "article": "το",
+          "gender": "neuter",
+          "english": "restaurant",
+          "type": "noun"
+        },
+        {
+          "id": "noun-bank",
+          "greek": "τράπεζα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "bank",
+          "type": "noun"
+        },
+        {
+          "id": "noun-work",
+          "greek": "δουλειά",
+          "article": "η",
+          "gender": "feminine",
+          "english": "work / job",
+          "type": "noun"
+        },
+        {
+          "id": "verb-go",
+          "greek": "πάω",
+          "forms": [
+            "πάω",
+            "πας",
+            "πάει",
+            "πάμε",
+            "πάτε",
+            "πάνε"
+          ],
+          "english": "to go",
+          "type": "verb"
+        },
+        {
+          "id": "preposition-to-in-at",
+          "greek": "σε",
+          "forms": [
+            "σε",
+            "στον",
+            "στη",
+            "στην",
+            "στο",
+            "στους",
+            "στις",
+            "στα"
+          ],
+          "english": "to / in / at",
+          "type": "preposition",
+          "note": "Includes contractions with the accusative definite articles. Previously encountered only inside στην Ελλάδα and στην Αθήνα."
+        }
       ],
       "newForms": [],
-      "reviewItems": ["question-where", "noun-house", "verb-be", "verb-live-stay"]
+      "reviewItems": [
+        "question-where",
+        "noun-house",
+        "verb-be",
+        "verb-live-stay"
+      ]
     },
     {
       "lessonId": "at-home",
       "newItems": [
-        { "id": "noun-room", "greek": "δωμάτιο", "article": "το", "gender": "neuter", "english": "room", "type": "noun" },
-        { "id": "noun-living-room", "greek": "σαλόνι", "article": "το", "gender": "neuter", "english": "living room", "type": "noun" },
-        { "id": "noun-kitchen", "greek": "κουζίνα", "article": "η", "gender": "feminine", "english": "kitchen", "type": "noun" },
-        { "id": "noun-bedroom", "greek": "υπνοδωμάτιο", "article": "το", "gender": "neuter", "english": "bedroom", "type": "noun" },
-        { "id": "noun-bathroom", "greek": "μπάνιο", "article": "το", "gender": "neuter", "english": "bathroom", "type": "noun" },
-        { "id": "noun-table", "greek": "τραπέζι", "forms": ["τραπέζι", "τραπέζια"], "article": "το", "gender": "neuter", "english": "table", "type": "noun" },
-        { "id": "noun-chair", "greek": "καρέκλα", "forms": ["καρέκλα", "καρέκλες"], "article": "η", "gender": "feminine", "english": "chair", "type": "noun" },
-        { "id": "noun-bed", "greek": "κρεβάτι", "forms": ["κρεβάτι", "κρεβάτια"], "article": "το", "gender": "neuter", "english": "bed", "type": "noun" },
-        { "id": "noun-sofa", "greek": "καναπές", "forms": ["καναπές", "καναπέ", "καναπέδες"], "article": "ο", "gender": "masculine", "english": "sofa", "type": "noun" },
-        { "id": "noun-wardrobe", "greek": "ντουλάπα", "forms": ["ντουλάπα", "ντουλάπες"], "article": "η", "gender": "feminine", "english": "wardrobe / closet", "type": "noun" },
-        { "id": "noun-lamp", "greek": "λάμπα", "forms": ["λάμπα", "λάμπες"], "article": "η", "gender": "feminine", "english": "lamp", "type": "noun" },
-        { "id": "noun-window", "greek": "παράθυρο", "forms": ["παράθυρο", "παράθυρα"], "article": "το", "gender": "neuter", "english": "window", "type": "noun" },
-        { "id": "expression-on", "greek": "πάνω σε", "english": "on", "type": "expression", "note": "Used with accusative nouns and contracted articles, such as πάνω στο τραπέζι." },
-        { "id": "expression-under", "greek": "κάτω από", "english": "under", "type": "expression" }
+        {
+          "id": "noun-room",
+          "greek": "δωμάτιο",
+          "article": "το",
+          "gender": "neuter",
+          "english": "room",
+          "type": "noun"
+        },
+        {
+          "id": "noun-living-room",
+          "greek": "σαλόνι",
+          "article": "το",
+          "gender": "neuter",
+          "english": "living room",
+          "type": "noun"
+        },
+        {
+          "id": "noun-kitchen",
+          "greek": "κουζίνα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "kitchen",
+          "type": "noun"
+        },
+        {
+          "id": "noun-bedroom",
+          "greek": "υπνοδωμάτιο",
+          "article": "το",
+          "gender": "neuter",
+          "english": "bedroom",
+          "type": "noun"
+        },
+        {
+          "id": "noun-bathroom",
+          "greek": "μπάνιο",
+          "article": "το",
+          "gender": "neuter",
+          "english": "bathroom",
+          "type": "noun"
+        },
+        {
+          "id": "noun-dining-room",
+          "greek": "τραπεζαρία",
+          "article": "η",
+          "gender": "feminine",
+          "english": "dining room",
+          "type": "noun"
+        },
+        {
+          "id": "noun-hallway",
+          "greek": "διάδρομος",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "hall / hallway",
+          "type": "noun"
+        },
+        {
+          "id": "noun-table",
+          "greek": "τραπέζι",
+          "forms": [
+            "τραπέζι",
+            "τραπέζια"
+          ],
+          "article": "το",
+          "gender": "neuter",
+          "english": "table",
+          "type": "noun"
+        },
+        {
+          "id": "noun-bed",
+          "greek": "κρεβάτι",
+          "forms": [
+            "κρεβάτι",
+            "κρεβάτια"
+          ],
+          "article": "το",
+          "gender": "neuter",
+          "english": "bed",
+          "type": "noun"
+        },
+        {
+          "id": "noun-sofa",
+          "greek": "καναπές",
+          "forms": [
+            "καναπές",
+            "καναπέ",
+            "καναπέδες"
+          ],
+          "article": "ο",
+          "gender": "masculine",
+          "english": "sofa",
+          "type": "noun"
+        },
+        {
+          "id": "noun-wardrobe",
+          "greek": "ντουλάπα",
+          "forms": [
+            "ντουλάπα",
+            "ντουλάπες"
+          ],
+          "article": "η",
+          "gender": "feminine",
+          "english": "wardrobe / closet",
+          "type": "noun"
+        },
+        {
+          "id": "noun-lamp",
+          "greek": "λάμπα",
+          "forms": [
+            "λάμπα",
+            "λάμπες"
+          ],
+          "article": "η",
+          "gender": "feminine",
+          "english": "lamp",
+          "type": "noun"
+        },
+        {
+          "id": "noun-window",
+          "greek": "παράθυρο",
+          "forms": [
+            "παράθυρο",
+            "παράθυρα"
+          ],
+          "article": "το",
+          "gender": "neuter",
+          "english": "window",
+          "type": "noun"
+        },
+        {
+          "id": "expression-on",
+          "greek": "πάνω σε",
+          "english": "on",
+          "type": "expression",
+          "note": "Used with accusative nouns and contracted articles, such as πάνω στο τραπέζι."
+        },
+        {
+          "id": "expression-under",
+          "greek": "κάτω από",
+          "english": "under",
+          "type": "expression"
+        }
       ],
       "newForms": [],
-      "reviewItems": ["preposition-to-in-at", "question-where", "possessive-my", "possessive-your-singular"]
+      "reviewItems": [
+        "preposition-to-in-at",
+        "question-where",
+        "possessive-my",
+        "possessive-your-singular"
+      ]
+    },
+    {
+      "lessonId": "ten-common-verbs",
+      "newItems": [
+        {
+          "id": "language-greek",
+          "greek": "ελληνικά",
+          "english": "Greek",
+          "type": "language"
+        },
+        {
+          "id": "noun-film",
+          "greek": "ταινία",
+          "article": "η",
+          "gender": "feminine",
+          "english": "film",
+          "type": "noun"
+        },
+        {
+          "id": "noun-message",
+          "greek": "μήνυμα",
+          "article": "το",
+          "gender": "neuter",
+          "english": "message",
+          "type": "noun"
+        },
+        {
+          "id": "noun-music",
+          "greek": "μουσική",
+          "article": "η",
+          "gender": "feminine",
+          "english": "music",
+          "type": "noun"
+        },
+        {
+          "id": "adverb-today",
+          "greek": "σήμερα",
+          "english": "today",
+          "type": "adverb"
+        }
+      ],
+      "newForms": [],
+      "reviewItems": [
+        "verb-be",
+        "verb-have",
+        "noun-book",
+        "noun-father"
+      ]
+    },
+    {
+      "lessonId": "colours",
+      "newItems": [
+        {
+          "id": "color-red",
+          "greek": "κόκκινος",
+          "forms": [
+            "κόκκινος",
+            "κόκκινη",
+            "κόκκινο"
+          ],
+          "english": "red",
+          "type": "adjective"
+        },
+        {
+          "id": "color-green",
+          "greek": "πράσινος",
+          "forms": [
+            "πράσινος",
+            "πράσινη",
+            "πράσινο"
+          ],
+          "english": "green",
+          "type": "adjective"
+        },
+        {
+          "id": "color-yellow",
+          "greek": "κίτρινος",
+          "forms": [
+            "κίτρινος",
+            "κίτρινη",
+            "κίτρινο"
+          ],
+          "english": "yellow",
+          "type": "adjective"
+        },
+        {
+          "id": "color-black",
+          "greek": "μαύρος",
+          "forms": [
+            "μαύρος",
+            "μαύρη",
+            "μαύρο"
+          ],
+          "english": "black",
+          "type": "adjective"
+        },
+        {
+          "id": "color-white",
+          "greek": "άσπρος",
+          "forms": [
+            "άσπρος",
+            "άσπρη",
+            "άσπρο"
+          ],
+          "english": "white",
+          "type": "adjective"
+        },
+        {
+          "id": "color-blue",
+          "greek": "μπλε",
+          "english": "blue",
+          "type": "adjective",
+          "note": "One form in these examples."
+        },
+        {
+          "id": "color-orange",
+          "greek": "πορτοκαλί",
+          "english": "orange",
+          "type": "adjective",
+          "note": "One form in these examples."
+        },
+        {
+          "id": "color-pink",
+          "greek": "ροζ",
+          "english": "pink",
+          "type": "adjective",
+          "note": "One form in these examples."
+        },
+        {
+          "id": "color-purple",
+          "greek": "μωβ",
+          "english": "purple",
+          "type": "adjective",
+          "note": "One form in these examples."
+        },
+        {
+          "id": "color-grey",
+          "greek": "γκρι",
+          "english": "grey",
+          "type": "adjective",
+          "note": "One form in these examples."
+        },
+        {
+          "id": "color-brown",
+          "greek": "καφέ",
+          "english": "brown",
+          "type": "adjective",
+          "note": "One form in these examples."
+        }
+      ],
+      "newForms": [],
+      "reviewItems": [
+        "noun-dog",
+        "noun-bag",
+        "noun-book",
+        "noun-house",
+        "noun-door",
+        "noun-chair",
+        "noun-car",
+        "noun-cat",
+        "noun-table",
+        "verb-be"
+      ]
+    },
+    {
+      "lessonId": "ordering-at-a-restaurant",
+      "newItems": [
+        {
+          "id": "noun-menu",
+          "greek": "μενού",
+          "article": "το",
+          "gender": "neuter",
+          "english": "menu",
+          "type": "noun"
+        },
+        {
+          "id": "noun-waiter",
+          "greek": "σερβιτόρος",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "waiter",
+          "type": "noun"
+        },
+        {
+          "id": "noun-waitress",
+          "greek": "σερβιτόρα",
+          "article": "η",
+          "gender": "feminine",
+          "english": "waitress",
+          "type": "noun"
+        },
+        {
+          "id": "noun-bill",
+          "greek": "λογαριασμός",
+          "article": "ο",
+          "gender": "masculine",
+          "english": "bill",
+          "type": "noun"
+        },
+        {
+          "id": "noun-sandwich",
+          "greek": "σάντουιτς",
+          "article": "το",
+          "gender": "neuter",
+          "english": "sandwich",
+          "type": "noun"
+        },
+        {
+          "id": "adverb-please",
+          "greek": "παρακαλώ",
+          "english": "please / you’re welcome",
+          "type": "expression"
+        },
+        {
+          "id": "expression-would-like",
+          "greek": "θα ήθελα",
+          "english": "I would like",
+          "type": "expression",
+          "note": "Learned as a polite expression."
+        }
+      ],
+      "newForms": [],
+      "reviewItems": [
+        "noun-tea",
+        "noun-water",
+        "noun-salad",
+        "noun-bread",
+        "noun-cheese",
+        "noun-egg",
+        "noun-milk",
+        "number-two",
+        "number-three"
+      ]
     }
   ]
 }

@@ -11,7 +11,7 @@ permalink: /lessons/accusative/
 
 ## 1. From subject to object
 
-The noun forms learned so far are **nominative** forms. Use the **accusative** for a direct object, such as the thing someone has:
+The noun forms learned so far are **nominative** forms. Use the **accusative** for a direct object—the person or thing affected by the verb:
 
 <div class="example">
 <p class="greek-line" lang="el"><strong>Ο σκύλος</strong> είναι εδώ.</p>
@@ -27,6 +27,8 @@ The article and sometimes the noun ending change in the accusative. This lesson 
 
 ## 2. Articles and noun endings
 
+### Definite articles
+
 <div class="table-scroll"><table>
 <thead><tr><th scope="col">Gender</th><th scope="col">Nominative</th><th scope="col">Accusative</th><th scope="col">English</th></tr></thead>
 <tbody>
@@ -35,11 +37,11 @@ The article and sometimes the noun ending change in the accusative. This lesson 
 <tr><td>Neuter</td><td lang="el">το βιβλίο</td><td lang="el"><strong>το βιβλίο</strong></td><td>the book</td></tr>
 </tbody></table></div>
 
-- Masculine nouns ending in **-ος** change to **-ο**: σκύλος → σκύλο, φίλος → φίλο.
-- The feminine nouns in **-α** and **-η** learned so far keep their endings: γάτα → γάτα, φίλη → φίλη.
-- Neuter nouns have the same nominative and accusative forms.
+- Masculine nouns ending in **-ος** change to **-ο**: σκύλος → σκύλο.
+- Feminine nouns in **-α** keep their endings: γάτα → γάτα, καρέκλα → καρέκλα. The definite article changes from **η** to **τη / την**. Use **την** before a vowel or **κ, π, τ, ξ, ψ, μπ, ντ, γκ, τσ, τζ**; otherwise use **τη**.
+- Neuter nouns and the definite article stay the same: **το → το**.
 
-The indefinite articles change like this:
+### Indefinite articles
 
 <div class="table-scroll"><table>
 <thead><tr><th scope="col">Gender</th><th scope="col">Nominative</th><th scope="col">Accusative</th><th scope="col">English</th></tr></thead>
@@ -49,93 +51,114 @@ The indefinite articles change like this:
 <tr><td>Neuter</td><td lang="el">ένα βιβλίο</td><td lang="el"><strong>ένα βιβλίο</strong></td><td>a book</td></tr>
 </tbody></table></div>
 
-### τη or την?
+- The masculine indefinite article changes from **ένας** to **έναν**.
+- The feminine indefinite article **μια** stays the same.
+- The neuter indefinite article **ένα** stays the same.
 
-Use **την** before a vowel or **κ, π, τ, ξ, ψ, μπ, ντ, γκ, τσ, τζ**. Otherwise, use **τη**: **την πόρτα**, but **τη γάτα** and **τη φίλη**.
-
-In writing, masculine **τον** and **έναν** always keep their final **-ν**.
-
-## 3. Three new nouns
-
-<div class="table-scroll"><table>
-<thead><tr><th scope="col">Nominative</th><th scope="col">Accusative</th><th scope="col">English</th></tr></thead>
-<tbody>
-<tr><td lang="el">ο χυμός</td><td lang="el"><strong>τον χυμό</strong></td><td>the juice</td></tr>
-<tr><td lang="el">η τσάντα</td><td lang="el"><strong>την τσάντα</strong></td><td>the bag</td></tr>
-<tr><td lang="el">το μολύβι</td><td lang="el"><strong>το μολύβι</strong></td><td>the pencil</td></tr>
-</tbody></table></div>
+## 3. Example sentences
 
 <div class="example">
-<p class="greek-line" lang="el">Η Μαρία πίνει <strong>έναν χυμό</strong>.</p>
-<p class="translation-line" lang="en">Maria is drinking <strong>a juice</strong>.</p>
+<p class="greek-line" lang="el">Βλέπουν <strong>τον δρόμο</strong>.</p>
+<p class="translation-line" lang="en">They see <strong>the road</strong>.</p>
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el">Έχω <strong>την τσάντα</strong>.</p>
-<p class="translation-line" lang="en">I have <strong>the bag</strong>.</p>
+<p class="greek-line" lang="el">Βλέπω <strong>τη γάτα</strong>.</p>
+<p class="translation-line" lang="en">I see <strong>the cat</strong>.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Έχω <strong>ένα τετράδιο</strong>.</p>
+<p class="translation-line" lang="en">I have <strong>a notebook</strong>.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Βλέπω <strong>την πόρτα</strong>.</p>
+<p class="translation-line" lang="en">I see <strong>the door</strong>.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Έχω <strong>μια καρέκλα</strong>.</p>
+<p class="translation-line" lang="en">I have <strong>a chair</strong>.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Βλέπω <strong>ένα στυλό</strong>.</p>
+<p class="translation-line" lang="en">I see <strong>a pen</strong>.</p>
 </div>
 
 <div class="example">
 <p class="greek-line" lang="el">Έχεις <strong>ένα μολύβι</strong>;</p>
-<p class="translation-line" lang="en">Do you have <strong>a pencil</strong>?</p>
+<p class="translation-line" lang="en">Do you have <strong>a pencil</strong>? (To one person, informally.)</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Δεν βλέπουν <strong>το κινητό</strong>.</p>
+<p class="translation-line" lang="en">They don’t see <strong>the cell phone</strong>.</p>
 </div>
 
 ## 4. Questions
 
-The object stays in the accusative in questions:
-
 <div class="example">
-<p class="greek-line" lang="el">Έχετε <strong>τον σκύλο</strong>;</p>
-<p class="translation-line" lang="en">Do you have <strong>the dog</strong>? (Plural or polite.)</p>
+<p class="greek-line" lang="el">Έχετε <strong>την τσάντα</strong>;</p>
+<p class="translation-line" lang="en">Do you have <strong>the bag</strong>? (To several people, or one person politely.)</p>
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el">Έχεις <strong>την τσάντα</strong>;</p>
-<p class="translation-line" lang="en">Do you have <strong>the bag</strong>? (Singular.)</p>
+<p class="greek-line" lang="el">Έχεις <strong>ένα μολύβι</strong>;</p>
+<p class="translation-line" lang="en">Do you have <strong>a pencil</strong>? (To one person, informally.)</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Βλέπει <strong>την πόρτα</strong>;</p>
+<p class="translation-line" lang="en">Does he/she see <strong>the door</strong>?</p>
 </div>
 
 ## 5. Negatives
 
-The object also stays in the accusative in negative sentences:
-
 <div class="example">
-<p class="greek-line" lang="el">Δεν έχω <strong>το βιβλίο</strong>.</p>
-<p class="translation-line" lang="en">I don't have <strong>the book</strong>.</p>
+<p class="greek-line" lang="el">Δεν έχω <strong>το κλειδί</strong>.</p>
+<p class="translation-line" lang="en">I don't have <strong>the key</strong>.</p>
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el">Δεν πίνω <strong>τον χυμό</strong>.</p>
-<p class="translation-line" lang="en">I’m not drinking <strong>the juice</strong>.</p>
+<p class="greek-line" lang="el">Δεν έχει <strong>τη λάμπα</strong>.</p>
+<p class="translation-line" lang="en">He/She doesn’t have <strong>the lamp</strong>.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Δεν βλέπουμε <strong>ένα σπίτι</strong>.</p>
+<p class="translation-line" lang="en">We don’t see <strong>a house</strong>.</p>
 </div>
 
 ## 6. Practice exercises
 
 Translate into Greek.
 
-1. We are drinking a juice.
-2. She has the bag.
-3. We have a pencil.
-4. Are you drinking the juice? (Singular.)
-5. The dog is not here.
-6. They live here.
-7. I am not drinking water now.
-8. Do you have a bag? (Plural or polite.)
-9. We don't have the dog.
-10. The child is drinking the juice.
+1. He has a house.
+2. Do you see the door? (To one person, informally.)
+3. I see a cat.
+4. Do you have the key? (To one person, informally.)
+5. We see the lamp and the chair.
+6. They have a cell phone.
+7. I have a pen, a pencil, and a notebook.
+8. Do you have a child? (To several people, or one person politely.)
+9. We see the road.
+10. The child sees the bag.
 
 <details data-pagefind-ignore>
 <summary>Show answers</summary>
 <p>Subject pronouns may be included or omitted. Μία can also be used instead of μια.</p>
 <ol>
-<li lang="el">Πίνουμε έναν χυμό.</li>
-<li lang="el">Αυτή έχει την τσάντα.</li>
-<li lang="el">Έχουμε ένα μολύβι.</li>
-<li lang="el">Πίνεις τον χυμό;</li>
-<li lang="el">Ο σκύλος δεν είναι εδώ.</li>
-<li lang="el">Μένουν εδώ.</li>
-<li lang="el">Δεν πίνω νερό τώρα.</li>
-<li lang="el">Έχετε μια τσάντα;</li>
-<li lang="el">Δεν έχουμε τον σκύλο.</li>
-<li lang="el">Το παιδί πίνει τον χυμό.</li>
+<li lang="el">Αυτός έχει ένα σπίτι.</li>
+<li lang="el">Βλέπεις την πόρτα;</li>
+<li lang="el">Βλέπω μια γάτα.</li>
+<li lang="el">Έχεις το κλειδί;</li>
+<li lang="el">Βλέπουμε τη λάμπα και την καρέκλα.</li>
+<li lang="el">Έχουν ένα κινητό.</li>
+<li lang="el">Έχω ένα στυλό, ένα μολύβι και ένα τετράδιο.</li>
+<li lang="el">Έχετε ένα παιδί;</li>
+<li lang="el">Βλέπουμε τον δρόμο.</li>
+<li lang="el">Το παιδί βλέπει την τσάντα.</li>
 </ol>
 </details>

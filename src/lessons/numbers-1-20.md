@@ -55,13 +55,23 @@ Both versions of 7, 8, and 9 are correct. **Εφτά, οχτώ, εννιά** and
 The other numbers from 2 to 20 do not change with gender.
 
 <div class="example">
-<p class="greek-line" lang="el"><strong>Τρεις φίλοι</strong> και <strong>τρία παιδιά</strong>.</p>
-<p class="translation-line" lang="en">Three friends (male) and three children.</p>
+<p class="greek-line" lang="el">Τέσσερις καρέκλες</p>
+<p class="translation-line" lang="en">four chairs</p>
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el"><strong>Τέσσερις φίλες</strong> και <strong>τέσσερα βιβλία</strong>.</p>
-<p class="translation-line" lang="en">Four friends (female) and four books.</p>
+<p class="greek-line" lang="el">Δεκατρία βιβλία</p>
+<p class="translation-line" lang="en">thirteen books</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">τέσσερις πόρτες</p>
+<p class="translation-line" lang="en">four doors</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Δεκατρία σπίτια</p>
+<p class="translation-line" lang="en">thirteen houses</p>
 </div>
 
 ## 3. Numbers in the accusative
@@ -70,76 +80,101 @@ Numbers agree with the noun’s gender, using the forms in section 2. For number
 
 Feminine **μια** and neuter **ένα** have the same form in the nominative and accusative.
 
-<div class="example">
-<p class="greek-line" lang="el"><strong>Ένας σκύλος</strong> είναι εδώ.</p>
-<p class="translation-line" lang="en">One dog is here.</p>
-</div>
-
-<div class="example">
-<p class="greek-line" lang="el">Έχω <strong>έναν σκύλο</strong>.</p>
-<p class="translation-line" lang="en">I have one dog.</p>
-</div>
+<div class="table-scroll"><table>
+<thead><tr><th scope="col">Number</th><th scope="col">Masculine nominative</th><th scope="col">Masculine accusative</th><th scope="col">Feminine</th><th scope="col">Neuter</th></tr></thead>
+<tbody>
+<tr><td>1</td><td lang="el">ένας</td><td lang="el">έναν</td><td lang="el">μία / μια</td><td lang="el">ένα</td></tr>
+</tbody></table></div>
 
 Compare these subject and object pairs. **Τρεις** is used with masculine and feminine nouns; **τρία** is used with neuter nouns. Neither number form changes in the accusative.
 
 ### Masculine
 
 <div class="example">
-<p class="greek-line" lang="el"><strong>Τρεις σκύλοι</strong> είναι εδώ.</p>
-<p class="translation-line" lang="en"><strong>Three dogs</strong> are here.</p>
+<p class="greek-line" lang="el"><strong>Τρεις χυμοί</strong> είναι εδώ.</p>
+<p class="translation-line" lang="en"><strong>Three juices</strong> are here.</p>
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el">Έχω <strong>τρεις σκύλους</strong>.</p>
-<p class="translation-line" lang="en">I have <strong>three dogs</strong>.</p>
+<p class="greek-line" lang="el">Βλέπω <strong>τρεις χυμούς</strong>.</p>
+<p class="translation-line" lang="en">I see <strong>three juices</strong>.</p>
 </div>
-
-Here the noun changes from **σκύλοι** to **σκύλους**, but **τρεις** stays the same.
 
 ### Feminine
 
 <div class="example">
-<p class="greek-line" lang="el"><strong>Τρεις γάτες</strong> είναι εδώ.</p>
-<p class="translation-line" lang="en"><strong>Three cats</strong> are here.</p>
+<p class="greek-line" lang="el"><strong>Τρεις ντομάτες</strong> είναι εδώ.</p>
+<p class="translation-line" lang="en"><strong>Three tomatoes</strong> are here.</p>
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el">Έχω <strong>τρεις γάτες</strong>.</p>
-<p class="translation-line" lang="en">I have <strong>three cats</strong>.</p>
+<p class="greek-line" lang="el">Τρώμε <strong>τρεις ντομάτες</strong>.</p>
+<p class="translation-line" lang="en">We eat <strong>three tomatoes</strong>.</p>
 </div>
 
 ### Neuter
 
 <div class="example">
-<p class="greek-line" lang="el"><strong>Τρία βιβλία</strong> είναι εδώ.</p>
-<p class="translation-line" lang="en"><strong>Three books</strong> are here.</p>
+<p class="greek-line" lang="el"><strong>Τρία αυγά</strong> είναι εδώ.</p>
+<p class="translation-line" lang="en"><strong>Three eggs</strong> are here.</p>
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el">Έχω <strong>τρία βιβλία</strong>.</p>
-<p class="translation-line" lang="en">I have <strong>three books</strong>.</p>
+<p class="greek-line" lang="el">Βλέπουν <strong>τρία αυγά</strong>.</p>
+<p class="translation-line" lang="en">They see <strong>three eggs</strong>.</p>
 </div>
 
 ## 4. Example sentences
 
 <div class="example">
-<p class="greek-line" lang="el">Η Μαρία έχει δύο γάτες.</p>
-<p class="translation-line" lang="en">Maria has two cats.</p>
+<p class="greek-line" lang="el">Η Μαρία έχει δύο μήλα.</p>
+<p class="translation-line" lang="en">Maria has two apples.</p>
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el">Τρία παιδιά πίνουν νερό.</p>
-<p class="translation-line" lang="en">Three children are drinking water.</p>
+<p class="greek-line" lang="el">Τρία παιδιά τρώνε μπανάνες.</p>
+<p class="translation-line" lang="en">Three children eat bananas.</p>
 </div>
-
-- **το ευρώ** — euro
 
 <div class="example">
-<p class="greek-line" lang="el">Έχω δέκα ευρώ.</p>
-<p class="translation-line" lang="en">I have ten euros.</p>
+<p class="greek-line" lang="el">Βλέπω δεκατέσσερα βιβλία.</p>
+<p class="translation-line" lang="en">I see fourteen books.</p>
 </div>
 
-**Ευρώ** has the same form in the singular and plural.
+<div class="example">
+<p class="greek-line" lang="el">Τρώμε πέντε πατάτες.</p>
+<p class="translation-line" lang="en">We eat five potatoes.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Έχουμε τέσσερις καρέκλες.</p>
+<p class="translation-line" lang="en">We have four chairs.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Τα δύο βιβλία είναι εδώ.</p>
+<p class="translation-line" lang="en">The two books are here.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Η Μαρία τρώει δύο μήλα.</p>
+<p class="translation-line" lang="en">Maria eats two apples.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Έχω δέκα κλειδιά.</p>
+<p class="translation-line" lang="en">I have ten keys.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Τέσσερα σπίτια είναι εκεί.</p>
+<p class="translation-line" lang="en">Four houses are there.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Βλέπουν δέκα τράπεζια.</p>
+<p class="translation-line" lang="en">They see ten tables.</p>
+</div>
 
 ## 5. Practice exercises
 
@@ -147,37 +182,37 @@ Translate into Greek. Write the numbers in words.
 
 1. Two books.
 
-2. One male friend.
+2. One cell phone.
 
-3. One female friend.
+3. One chair.
 
-4. Four children live here.
+4. Four children see the house.
 
-5. Four male friends.
+5. Four lamps.
 
-6. Three books.
+6. Three keys.
 
-7. Maria has fourteen cats.
+7. Maria sees fourteen tomatoes.
 
-8. Five dogs are drinking water.
+8. I eat five bananas.
 
-9. We have thirteen books.
+9. We have thirteen bags.
 
-10. I have twenty euros.
+10. Twenty houses.
 
 <details data-pagefind-ignore>
 <summary>Show answers</summary>
 <p>Suggested answers; other natural translations may also be possible.</p>
 <ol>
 <li lang="el">Δύο βιβλία.</li>
-<li lang="el">Ένας φίλος.</li>
-<li lang="el">Μια φίλη.</li>
-<li lang="el">Τέσσερα παιδιά μένουν εδώ.</li>
-<li lang="el">Τέσσερις φίλοι.</li>
-<li lang="el">Τρία βιβλία.</li>
-<li lang="el">Η Μαρία έχει δεκατέσσερις γάτες.</li>
-<li lang="el">Πέντε σκύλοι πίνουν νερό.</li>
-<li lang="el">Έχουμε δεκατρία βιβλία.</li>
-<li lang="el">Έχω είκοσι ευρώ.</li>
+<li lang="el">Ένα κινητό.</li>
+<li lang="el">Μια καρέκλα.</li>
+<li lang="el">Τέσσερα παιδιά βλέπουν το σπίτι.</li>
+<li lang="el">Τέσσερις λάμπες.</li>
+<li lang="el">Τρία κλειδιά.</li>
+<li lang="el">Η Μαρία βλέπει δεκατέσσερις ντομάτες.</li>
+<li lang="el">Τρώω πέντε μπανάνες.</li>
+<li lang="el">Έχουμε δεκατρείς τσάντες.</li>
+<li lang="el">Είκοσι σπίτια.</li>
 </ol>
 </details>

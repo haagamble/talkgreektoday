@@ -18,7 +18,7 @@ For plural subjects, the definite article (“the”) changes from **ο** or **�
 <tbody>
 <tr><td>Masculine -ος → -οι</td><td lang="el">ο σκύλος</td><td lang="el"><strong>οι σκύλοι</strong></td><td>the dog → the dogs</td></tr>
 <tr><td>Feminine -α → -ες</td><td lang="el">η γάτα</td><td lang="el"><strong>οι γάτες</strong></td><td>the cat → the cats</td></tr>
-<tr><td>Feminine -η → -ες</td><td lang="el">η φίλη</td><td lang="el"><strong>οι φίλες</strong></td><td>the friend → the friends (female)</td></tr>
+<tr><td>Feminine -α → -ες</td><td lang="el">η καρέκλα</td><td lang="el"><strong>οι καρέκλες</strong></td><td>the chair → the chairs</td></tr>
 <tr><td>Neuter -ο → -α</td><td lang="el">το βιβλίο</td><td lang="el"><strong>τα βιβλία</strong></td><td>the book → the books</td></tr>
 <tr><td>Neuter -ι → -ια</td><td lang="el">το σπίτι</td><td lang="el"><strong>τα σπίτια</strong></td><td>the house → the houses</td></tr>
 <tr><td>Neuter -ί → -ιά</td><td lang="el">το παιδί</td><td lang="el"><strong>τα παιδιά</strong></td><td>the child → the children</td></tr>
@@ -32,18 +32,13 @@ These are common patterns, not rules for every noun. Notice the accent in **βι
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el"><strong>Οι σκύλοι</strong> πίνουν νερό.</p>
-<p class="translation-line" lang="en"><strong>The dogs</strong> are drinking water.</p>
+<p class="greek-line" lang="el"><strong>Οι σκύλοι</strong> βλέπουν τη γάτα.</p>
+<p class="translation-line" lang="en"><strong>The dogs</strong> see the cat.</p>
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el"><strong>Τα παιδιά</strong> μένουν εδώ.</p>
-<p class="translation-line" lang="en"><strong>The children</strong> live here.</p>
-</div>
-
-<div class="example">
-<p class="greek-line" lang="el"><strong>Οι φίλες</strong> έχουν έναν σκύλο.</p>
-<p class="translation-line" lang="en"><strong>The friends</strong> have a dog. (Female friends.)</p>
+<p class="greek-line" lang="el"><strong>Τα παιδιά</strong> έχουν ένα βιβλίο.</p>
+<p class="translation-line" lang="en"><strong>The children</strong> have a book.</p>
 </div>
 
 ## 2. Plural objects
@@ -59,8 +54,8 @@ For plural direct objects, use the accusative articles **τους, τις, τα*
 </tbody></table></div>
 
 <div class="example">
-<p class="greek-line" lang="el">Τα παιδιά πίνουν <strong>τους χυμούς</strong>.</p>
-<p class="translation-line" lang="en">The children are drinking <strong>the juices</strong>.</p>
+<p class="greek-line" lang="el">Τα παιδιά βλέπουν <strong>τους σκύλους</strong>.</p>
+<p class="translation-line" lang="en">The children see <strong>the dogs</strong>.</p>
 </div>
 
 <div class="example">
@@ -92,28 +87,28 @@ For plural direct objects, use the accusative articles **τους, τις, τα*
 Translate into Greek.
 
 1. The dogs are here.
-2. The children are drinking juice.
-3. The bags are not here.
-4. Are the pencils here?
-5. We have the cats.
-6. Maria has the books.
-7. They drink juices.
-8. I don't have the bags.
-9. Do you have the dogs? (Singular.)
-10. The cats live here.
+2. The children see the house.
+3. They have the bags.
+4. Are the books there?
+5. We have the pencils and the pens.
+6. The books and notebooks are here.
+7. They see the cats.
+8. I don't have the keys.
+9. Are the lamps here?
+10. They see the roads.
 
 <details data-pagefind-ignore>
 <summary>Show answers</summary>
 <ol>
 <li lang="el">Οι σκύλοι είναι εδώ.</li>
-<li lang="el">Τα παιδιά πίνουν χυμό.</li>
-<li lang="el">Οι τσάντες δεν είναι εδώ.</li>
-<li lang="el">Είναι τα μολύβια εδώ;</li>
-<li lang="el">Έχουμε τις γάτες.</li>
-<li lang="el">Η Μαρία έχει τα βιβλία.</li>
-<li lang="el">Πίνουν χυμούς.</li>
-<li lang="el">Δεν έχω τις τσάντες.</li>
-<li lang="el">Έχεις τους σκύλους;</li>
-<li lang="el">Οι γάτες μένουν εδώ.</li>
+<li lang="el">Τα παιδιά βλέπουν το σπίτι.</li>
+<li lang="el">Έχουν τις τσάντες.</li>
+<li lang="el">Είναι τα βιβλία εκεί;</li>
+<li lang="el">Έχουμε τα μολύβια και τα στυλό.</li>
+<li lang="el">Τα βιβλία και τα τετράδια είναι εδώ.</li>
+<li lang="el">Βλέπουν τις γάτες.</li>
+<li lang="el">Δεν έχω τα κλειδιά.</li>
+<li lang="el">Οι λάμπες είναι εδώ;</li>
+<li lang="el">Βλέπουν τους δρόμους.</li>
 </ol>
 </details>
