@@ -1,7 +1,7 @@
 ---
 layout: lesson.njk
 tags: lesson
-title: "Family vocabulary"
+title: "Family"
 greekTitle: "Η οικογένεια"
 category: Topics
 subjects: ["Family", "Vocabulary", "People"]
