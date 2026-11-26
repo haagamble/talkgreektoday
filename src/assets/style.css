@@ -35,3 +35,68 @@ footer .footer-brand{display:block;margin-bottom:8px}
 
 /* Colour accents keep reading surfaces warm and navigation clear. */
 a{color:var(--blue)}.brand,.footer-brand,.card,.route{color:var(--ink)}.eyebrow,.category-label{color:var(--accent)}.card-bottom{color:var(--blue)}
+
+/* Bring homepage learning options closer together. */
+/* Compact page introductions and resource panels without changing lesson text. */
+@media screen{
+  .page-heading{padding-top:40px;padding-bottom:28px}
+  .page-heading>.eyebrow{margin-bottom:12px}
+  .page-heading h1{font-size:44px;letter-spacing:-1.5px;margin-bottom:18px}
+  .video-resource{margin-top:26px;gap:28px}
+  .audio-resource{margin-top:24px;padding:24px}
+  .audio-resource .video-embed{margin-bottom:20px}
+  .course-list{margin:28px 0}
+  .course-step{padding:20px 0;gap:18px}
+  .course-step h2{margin-bottom:6px}
+  .library-controls{margin-top:24px;padding:20px}
+  .library-controls .filters{margin:18px 0}
+  .lesson-list{margin-top:24px}
+  .lesson-row{padding:19px 0}
+  .lesson-row h2{margin:8px 0 7px}
+  .subject-tags{margin-top:9px}
+  .lesson-heading{padding-top:24px;padding-bottom:24px}
+  .lesson-heading .back{margin-bottom:20px}
+  .lesson-heading h1{font-size:44px;letter-spacing:-1.5px}
+  .lesson-heading .greek-title{margin-bottom:14px}
+  .lesson-heading .lede{margin-top:12px;margin-bottom:14px}
+  .lesson-meta{margin-top:18px}
+}
+@media screen and (max-width:650px){
+  .page-heading{padding-top:30px;padding-bottom:24px}
+  .page-heading h1,.lesson-heading h1{font-size:36px;letter-spacing:-1px}
+  .audio-resource{padding:20px;margin-top:20px}
+  .video-resource{margin-top:22px;gap:20px}
+  .library-controls{padding:18px}
+  .course-step{grid-template-columns:32px 1fr;gap:14px;padding:18px 0}
+  .lesson-row{padding:17px 0}
+  .lesson-heading{padding-top:20px;padding-bottom:20px}
+}
+
+.homepage .hero{padding-top:44px;padding-bottom:36px}
+.homepage .hero h1{font-size:52px;letter-spacing:-1.5px;margin-bottom:16px}
+.homepage .hero .lede{margin-top:0;margin-bottom:22px}
+.homepage .learning-routes{gap:20px;padding-bottom:36px}
+.homepage .route{padding:22px}
+.homepage .route .eyebrow{margin-bottom:8px}
+.homepage .route h2{font-size:26px;margin-bottom:10px}
+.homepage .route p:last-child{margin-top:0}
+.homepage .lesson-section{padding-top:28px;padding-bottom:36px}
+.homepage .section-title{margin-bottom:20px}
+.homepage .section-title h2{font-size:29px}
+.homepage .cards{gap:18px}
+.homepage .card{padding:20px}
+.homepage .card-top{margin-bottom:16px}
+.homepage .card h3{margin-bottom:10px}
+.homepage .card>p:not(.card-greek){margin-bottom:18px}
+.homepage .card-bottom{padding-top:12px}
+.homepage footer{margin-top:36px}
+@media(max-width:650px){
+  .homepage .hero{padding-top:30px;padding-bottom:28px}
+  .homepage .hero h1{font-size:40px;letter-spacing:-1px}
+  .homepage .learning-routes{gap:14px;padding-bottom:28px}
+  .homepage .route{padding:18px}
+  .homepage .lesson-section{padding-top:24px;padding-bottom:28px}
+  .homepage .section-title h2{font-size:27px}
+  .homepage .cards{gap:14px}
+  .homepage .card{padding:18px}
+}
