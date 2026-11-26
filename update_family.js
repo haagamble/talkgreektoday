@@ -1,0 +1,12 @@
+const fs = require('fs');
+const p = 'src/lessons/family-vocabulary.md';
+let s = fs.readFileSync(p, 'utf8');
+const table = `<div class="table-scroll"><table>\n<thead><tr><th scope="col">Greek singular</th><th scope="col">Greek plural</th><th scope="col">English</th></tr></thead>\n<tbody>\n<tr><td lang="el">ο παππούς</td><td lang="el">οι παππούδες</td><td>grandfather</td></tr>\n<tr><td lang="el">η γιαγιά</td><td lang="el">οι γιαγιάδες</td><td>grandmother</td></tr>\n<tr><td lang="el">ο θείος</td><td lang="el">οι θείοι</td><td>uncle</td></tr>\n<tr><td lang="el">η θεία</td><td lang="el">οι θείες</td><td>aunt</td></tr>\n<tr><td lang="el">ο ξάδελφος</td><td lang="el">οι ξάδελφοι</td><td>male cousin</td></tr>\n<tr><td lang="el">η ξαδέλφη</td><td lang="el">οι ξαδέλφες</td><td>female cousin</td></tr>\n</tbody></table></div>`;
+s = s.replace(/- \*\*οι γονείς[\s\S]*?- \*\*η ξαδέλφη[^\n]*/, table);
+s = s.replace('You may also see **αδελφός** and **αδελφή** for brother and sister.', 'You may also see **αδελφός** and **αδελφή** for brother and sister. The plural **γιοι** (sons) is irregular.');
+s = s.replace(/<p class="translation-line"[^>]*>The mother is here\.<\/p>/, '<p class="translation-line" lang="en">The parents are here.</p>');
+s = s.replace(/<p class="greek-line"[^>]*>[^<]*<\/p>\s*<p class="translation-line"[^>]*>The mother is here\.<\/p>/, '<p class="greek-line" lang="el">Οι γονείς είναι εδώ.</p>\n<p class="translation-line" lang="en">The parents are here.</p>');
+s = s.replace('8. The sons are at home.', '8. The sons are here.').replace('9. The aunt wants coffee.', '9. The aunt is here.');
+s = s.replace('8. The sons are at home.', '8. The sons are here.').replace('9. The aunt wants coffee.', '9. The aunt is here.');
+s = s.replace('The children are here.</p>', 'The parents and children are here.</p>');
+fs.writeFileSync(p, s);

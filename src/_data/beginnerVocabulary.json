@@ -1253,6 +1253,30 @@
           "gender": "neuter",
           "english": "baby / babies",
           "type": "noun"
+        },
+        {
+          "id": "noun-grandson",
+          "greek": "εγγονός",
+          "article": "ο",
+          "english": "grandson",
+          "gender": "masculine",
+          "type": "noun"
+        },
+        {
+          "id": "noun-granddaughter",
+          "greek": "εγγονή",
+          "article": "η",
+          "english": "granddaughter",
+          "gender": "feminine",
+          "type": "noun"
+        },
+        {
+          "id": "noun-grandchild",
+          "greek": "εγγόνι",
+          "article": "το",
+          "english": "grandchild",
+          "gender": "neuter",
+          "type": "noun"
         }
       ],
       "newForms": [],
