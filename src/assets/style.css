@@ -89,6 +89,10 @@ a{color:var(--blue)}.brand,.footer-brand,.card,.route{color:var(--ink)}.eyebrow,
 .homepage .card h3{margin-bottom:10px}
 .homepage .card>p:not(.card-greek){margin-bottom:18px}
 .homepage .card-bottom{padding-top:12px}
+.resource-cards .card{background:var(--blue-tint);border-color:#a9bfce}
+.resource-cards .card h3{color:var(--blue)}
+.resource-cards .card-bottom{border-color:#b9cbd7}
+.resource-cards .card:hover,.resource-cards .card:focus-visible{border-color:var(--blue)}
 .homepage footer{margin-top:36px}
 @media(max-width:650px){
   .homepage .hero{padding-top:30px;padding-bottom:28px}
