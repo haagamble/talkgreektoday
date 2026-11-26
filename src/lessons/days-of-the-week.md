@@ -15,15 +15,15 @@ permalink: /lessons/days-of-the-week/
 Modern calendars in Greece normally show Monday (Δευτέρα) as the first day of the week.
 
 <div class="table-scroll"><table>
-<thead><tr><th scope="col">English</th><th scope="col">Greek</th><th scope="col">Pronunciation (approx.)</th></tr></thead>
+<thead><tr><th scope="col">Greek</th><th scope="col">English</th><th scope="col">Pronunciation (approx.)</th></tr></thead>
 <tbody>
-<tr><td>Monday</td><td lang="el">η Δευτέρα</td><td>def-TEH-ra</td></tr>
-<tr><td>Tuesday</td><td lang="el">η Τρίτη</td><td>TREE-tee</td></tr>
-<tr><td>Wednesday</td><td lang="el">η Τετάρτη</td><td>teh-TAR-tee</td></tr>
-<tr><td>Thursday</td><td lang="el">η Πέμπτη</td><td>PEM-ptee</td></tr>
-<tr><td>Friday</td><td lang="el">η Παρασκευή</td><td>pa-ra-skeh-VEE</td></tr>
-<tr><td>Saturday</td><td lang="el">το Σάββατο</td><td>SA-va-to</td></tr>
-<tr><td>Sunday</td><td lang="el">η Κυριακή</td><td>kee-ree-a-KEE</td></tr>
+<tr><td lang="el">η Δευτέρα</td><td>Monday</td><td>def-TEH-ra</td></tr>
+<tr><td lang="el">η Τρίτη</td><td>Tuesday</td><td>TREE-tee</td></tr>
+<tr><td lang="el">η Τετάρτη</td><td>Wednesday</td><td>teh-TAR-tee</td></tr>
+<tr><td lang="el">η Πέμπτη</td><td>Thursday</td><td>PEM-ptee</td></tr>
+<tr><td lang="el">η Παρασκευή</td><td>Friday</td><td>pa-ra-skeh-VEE</td></tr>
+<tr><td lang="el">το Σάββατο</td><td>Saturday</td><td>SA-va-to</td></tr>
+<tr><td lang="el">η Κυριακή</td><td>Sunday</td><td>kee-ree-a-KEE</td></tr>
 </tbody></table></div>
 
 ### A useful pattern
@@ -41,15 +41,15 @@ The names Δευτέρα, Τρίτη, Τετάρτη, and Πέμπτη are relat
 To say “on” a particular day, use τη(ν) before feminine day names and το before Σάββατο. No preposition is needed.
 
 <div class="table-scroll"><table>
-<thead><tr><th scope="col">English</th><th scope="col">Greek</th></tr></thead>
+<thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
 <tbody>
-<tr><td>on Monday</td><td lang="el">τη Δευτέρα</td></tr>
-<tr><td>on Tuesday</td><td lang="el">την Τρίτη</td></tr>
-<tr><td>on Wednesday</td><td lang="el">την Τετάρτη</td></tr>
-<tr><td>on Thursday</td><td lang="el">την Πέμπτη</td></tr>
-<tr><td>on Friday</td><td lang="el">την Παρασκευή</td></tr>
-<tr><td>on Saturday</td><td lang="el">το Σάββατο</td></tr>
-<tr><td>on Sunday</td><td lang="el">την Κυριακή</td></tr>
+<tr><td lang="el">τη Δευτέρα</td><td>on Monday</td></tr>
+<tr><td lang="el">την Τρίτη</td><td>on Tuesday</td></tr>
+<tr><td lang="el">την Τετάρτη</td><td>on Wednesday</td></tr>
+<tr><td lang="el">την Πέμπτη</td><td>on Thursday</td></tr>
+<tr><td lang="el">την Παρασκευή</td><td>on Friday</td></tr>
+<tr><td lang="el">το Σάββατο</td><td>on Saturday</td></tr>
+<tr><td lang="el">την Κυριακή</td><td>on Sunday</td></tr>
 </tbody></table></div>
 
 ### Useful sentences
@@ -120,15 +120,15 @@ Method B: τις + plural day (or τα for Saturday)
 Both constructions are natural and common.
 
 <div class="table-scroll"><table>
-<thead><tr><th scope="col">English</th><th scope="col">With κάθε</th><th scope="col">With plural article</th></tr></thead>
+<thead><tr><th scope="col">With κάθε</th><th scope="col">With plural article</th><th scope="col">English</th></tr></thead>
 <tbody>
-<tr><td>Every Monday</td><td lang="el">κάθε Δευτέρα</td><td lang="el">τις Δευτέρες</td></tr>
-<tr><td>Every Tuesday</td><td lang="el">κάθε Τρίτη</td><td lang="el">τις Τρίτες</td></tr>
-<tr><td>Every Wednesday</td><td lang="el">κάθε Τετάρτη</td><td lang="el">τις Τετάρτες</td></tr>
-<tr><td>Every Thursday</td><td lang="el">κάθε Πέμπτη</td><td lang="el">τις Πέμπτες</td></tr>
-<tr><td>Every Friday</td><td lang="el">κάθε Παρασκευή</td><td lang="el">τις Παρασκευές</td></tr>
-<tr><td>Every Saturday</td><td lang="el">κάθε Σάββατο</td><td lang="el">τα Σάββατα</td></tr>
-<tr><td>Every Sunday</td><td lang="el">κάθε Κυριακή</td><td lang="el">τις Κυριακές</td></tr>
+<tr><td lang="el">κάθε Δευτέρα</td><td lang="el">τις Δευτέρες</td><td>Every Monday</td></tr>
+<tr><td lang="el">κάθε Τρίτη</td><td lang="el">τις Τρίτες</td><td>Every Tuesday</td></tr>
+<tr><td lang="el">κάθε Τετάρτη</td><td lang="el">τις Τετάρτες</td><td>Every Wednesday</td></tr>
+<tr><td lang="el">κάθε Πέμπτη</td><td lang="el">τις Πέμπτες</td><td>Every Thursday</td></tr>
+<tr><td lang="el">κάθε Παρασκευή</td><td lang="el">τις Παρασκευές</td><td>Every Friday</td></tr>
+<tr><td lang="el">κάθε Σάββατο</td><td lang="el">τα Σάββατα</td><td>Every Saturday</td></tr>
+<tr><td lang="el">κάθε Κυριακή</td><td lang="el">τις Κυριακές</td><td>Every Sunday</td></tr>
 </tbody></table></div>
 
 ### Useful sentences
@@ -209,14 +209,14 @@ These expressions use the accusative to say when something happens.
 Use these expressions to specify this, next, or last Monday. The same patterns work with the other days; Saturday uses the neuter forms shown below.
 
 <div class="table-scroll"><table>
-<thead><tr><th scope="col">English</th><th scope="col">Greek</th></tr></thead>
+<thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
 <tbody>
-<tr><td>this Monday</td><td lang="el">αυτή τη Δευτέρα</td></tr>
-<tr><td>next Monday</td><td lang="el">την επόμενη Δευτέρα</td></tr>
-<tr><td>last Monday</td><td lang="el">την περασμένη Δευτέρα</td></tr>
-<tr><td>this Saturday</td><td lang="el">αυτό το Σάββατο</td></tr>
-<tr><td>next Saturday</td><td lang="el">το επόμενο Σάββατο</td></tr>
-<tr><td>last Saturday</td><td lang="el">το περασμένο Σάββατο</td></tr>
+<tr><td lang="el">αυτή τη Δευτέρα</td><td>this Monday</td></tr>
+<tr><td lang="el">την επόμενη Δευτέρα</td><td>next Monday</td></tr>
+<tr><td lang="el">την περασμένη Δευτέρα</td><td>last Monday</td></tr>
+<tr><td lang="el">αυτό το Σάββατο</td><td>this Saturday</td></tr>
+<tr><td lang="el">το επόμενο Σάββατο</td><td>next Saturday</td></tr>
+<tr><td lang="el">το περασμένο Σάββατο</td><td>last Saturday</td></tr>
 </tbody></table></div>
 
 ### Examples

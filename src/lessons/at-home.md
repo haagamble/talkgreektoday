@@ -19,7 +19,11 @@ permalink: /lessons/at-home/
 <tr><td lang="el">η κουζίνα</td><td>kitchen</td></tr>
 <tr><td lang="el">το υπνοδωμάτιο</td><td>bedroom</td></tr>
 <tr><td lang="el">το μπάνιο</td><td>bathroom</td></tr>
+<tr><td lang="el">η τραπεζαρία</td><td>dining room</td></tr>
+<tr><td lang="el">ο διάδρομος</td><td>hall / hallway</td></tr>
 </tbody></table></div>
+
+## 2. Using σε with rooms
 
 **Σε** combines with the definite article to show where something is:
 
@@ -37,11 +41,16 @@ permalink: /lessons/at-home/
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el">Το <strong>υπνοδωμάτιο</strong> είναι μικρό.</p>
-<p class="translation-line" lang="en">The <strong>bedroom</strong> is small.</p>
+<p class="greek-line" lang="el">Η Μαρία είναι <strong>στο μπάνιο</strong>.</p>
+<p class="translation-line" lang="en">Maria is <strong>in the bathroom</strong>.</p>
 </div>
 
-## 2. Furniture and things at home
+<div class="example">
+<p class="greek-line" lang="el">Ο πατέρας μου είναι <strong>στον διάδρομο</strong>.</p>
+<p class="translation-line" lang="en">My father is <strong>in the hall</strong>.</p>
+</div>
+
+## 3. Furniture and things at home
 
 <div class="table-scroll"><table>
 <thead><tr><th scope="col">Greek</th><th scope="col">English</th><th scope="col">Plural</th></tr></thead>
@@ -67,7 +76,7 @@ permalink: /lessons/at-home/
 <p class="translation-line" lang="en">The <strong>chairs</strong> are new.</p>
 </div>
 
-## 3. Example sentences
+## 4. Example sentences
 
 <div class="example">
 <p class="greek-line" lang="el">Πού είναι ο <strong>καναπές</strong>;</p>
@@ -124,7 +133,7 @@ permalink: /lessons/at-home/
 <p class="translation-line" lang="en">The <strong>windows</strong> are not new.</p>
 </div>
 
-## 4. Practice exercises
+## 5. Practice exercises
 
 Translate into Greek.
 
