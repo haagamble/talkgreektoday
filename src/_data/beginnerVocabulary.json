@@ -678,7 +678,14 @@
           "forms": [
             "κινητό"
           ],
-          "note": "Singular accusative, shown in the ending explanation."
+          "note": "Singular accusative, unchanged from the nominative; used in examples and practice."
+        },
+        {
+          "itemId": "noun-road",
+          "forms": [
+            "δρόμο"
+          ],
+          "note": "Singular accusative."
         }
       ]
     },

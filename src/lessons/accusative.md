@@ -5,13 +5,13 @@ title: "Accusative"
 greekTitle: "Η αιτιατική"
 category: Grammar
 subjects: ["Nouns", "Articles", "Cases"]
-summary: "Use singular accusative forms with έχω."
+summary: "Use singular accusative forms of nouns."
 permalink: /lessons/accusative/
 ---
 
 ## 1. From subject to object
 
-The noun forms learned so far are **nominative** forms. Use the **accusative** for a direct object—the person or thing affected by the verb:
+We first learned nouns in their **nominative** form, used for the subject of a sentence. Use the **accusative** for a direct object—the person or thing affected by the verb:
 
 <div class="example">
 <p class="greek-line" lang="el"><strong>Ο σκύλος</strong> είναι εδώ.</p>
@@ -88,11 +88,6 @@ The article and sometimes the noun ending change in the accusative. This lesson 
 </div>
 
 <div class="example">
-<p class="greek-line" lang="el">Έχεις <strong>ένα μολύβι</strong>;</p>
-<p class="translation-line" lang="en">Do you have <strong>a pencil</strong>? (To one person, informally.)</p>
-</div>
-
-<div class="example">
 <p class="greek-line" lang="el">Δεν βλέπουν <strong>το κινητό</strong>.</p>
 <p class="translation-line" lang="en">They don’t see <strong>the cell phone</strong>.</p>
 </div>
@@ -140,7 +135,7 @@ Translate into Greek.
 3. I see a cat.
 4. Do you have the key? (To one person, informally.)
 5. We see the lamp and the chair.
-6. They have a cell phone.
+6. They don’t have a cell phone.
 7. I have a pen, a pencil, and a notebook.
 8. Do you have a child? (To several people, or one person politely.)
 9. We see the road.
@@ -155,7 +150,7 @@ Translate into Greek.
 <li lang="el">Βλέπω μια γάτα.</li>
 <li lang="el">Έχεις το κλειδί;</li>
 <li lang="el">Βλέπουμε τη λάμπα και την καρέκλα.</li>
-<li lang="el">Έχουν ένα κινητό.</li>
+<li lang="el">Δεν έχουν ένα κινητό.</li>
 <li lang="el">Έχω ένα στυλό, ένα μολύβι και ένα τετράδιο.</li>
 <li lang="el">Έχετε ένα παιδί;</li>
 <li lang="el">Βλέπουμε τον δρόμο.</li>
