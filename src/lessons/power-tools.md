@@ -5,7 +5,7 @@ title: "Power tools for learning Greek"
 greekTitle: "Εργαλεία για την εκμάθηση ελληνικών"
 category: Topics
 subjects: ["Communication", "Everyday Greek", "Phrases"]
-summary: "Use Greek to ask for help, describe your level, and keep learning."
+summary: "Useful phrases for language learning."
 permalink: /lessons/power-tools/
 ---
 

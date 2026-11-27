@@ -15,8 +15,12 @@ Greek verbs are listed in the first-person singular present form—the form used
 
 This lesson covers:
 
-- **βλέπω** — I see
-- **έχω** — I have
+<div class="table-scroll"><table>
+<thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
+<tbody>
+<tr><td lang="el">βλέπω</td><td>I see</td></tr>
+<tr><td lang="el">έχω</td><td>I have</td></tr>
+</tbody></table></div>
 
 These two verbs use the same present-tense endings. This is a common pattern, but other Greek verbs use different patterns.
 
@@ -44,7 +48,7 @@ The verb changes its ending depending on who does the action. Greek often leaves
 <tr><td>αυτοί / αυτές / αυτά</td><td lang="el">βλέπουν(ε)</td><td>they see</td></tr>
 </tbody></table></div>
 
-In Greek, some nouns change when they are the object of a verb. We’ll learn those changes later. At this stage, we’re using neuter nouns because their forms don’t change.
+In Greek, some nouns change when they are the direct object of a verb. We’ll learn those changes later. At this stage, we’re using neuter nouns because their subject and direct-object forms are the same.
 
 <div class="example">
 <p class="greek-line" lang="el">Βλέπουμε το βιβλίο.</p>
@@ -73,6 +77,8 @@ In Greek, some nouns change when they are the object of a verb. We’ll learn th
 <tr><td>εσείς</td><td lang="el">έχετε</td><td>you have (plural / polite)</td></tr>
 <tr><td>αυτοί / αυτές / αυτά</td><td lang="el">έχουν(ε)</td><td>they have</td></tr>
 </tbody></table></div>
+
+The **ε** in parentheses is optional: **βλέπουν** and **βλέπουνε** both mean “they see,” and **έχουν** and **έχουνε** both mean “they have.” Both forms are correct.
 
 <div class="example">
 <p class="greek-line" lang="el">Έχουμε ένα παιδί.</p>
@@ -151,7 +157,7 @@ Translate into Greek. Use the present tense.
 
 9. Do you see the notebook? (Plural or polite.)
 
-10. I don't see the book.
+10. I don't see the child.
 
 <details data-pagefind-ignore>
 <summary>Show answers</summary>
@@ -166,6 +172,6 @@ Translate into Greek. Use the present tense.
 <li lang="el">Βλέπουν ένα μολύβι.</li>
 <li lang="el">Έχετε ένα παιδί;</li>
 <li lang="el">Βλέπετε το τετράδιο;</li>
-<li lang="el">Δεν βλέπω το βιβλίο.</li>
+<li lang="el">Δεν βλέπω το παιδί.</li>
 </ol>
 </details>
