@@ -14,7 +14,7 @@ permalink: /lessons/definite-indefinite-articles/
 Greek has three genders: masculine, feminine, and neuter. The words for **the** and **a/an** change to match the noun.
 
 <div class="table-scroll"><table>
-<thead><tr><th scope="col">Gender</th><th scope="col">The</th><th scope="col">A / an</th><th scope="col">Example</th></tr></thead>
+<thead><tr><th scope="col">Gender</th><th scope="col">the</th><th scope="col">a / an</th><th scope="col">Example</th></tr></thead>
 <tbody>
 <tr><td>Masculine</td><td lang="el">ο</td><td lang="el">ένας</td><td lang="el">ο σκύλος / ένας σκύλος</td></tr>
 <tr><td>Feminine</td><td lang="el">η</td><td lang="el">μία / μια</td><td lang="el">η καρέκλα / μια καρέκλα</td></tr>
@@ -27,10 +27,13 @@ Learn each noun with its article.
 
 Use **ο, η, το** when talking about a particular person or thing.
 
-- **είναι** — is
-- **εδώ** — here
-- **εκεί** — there
-- **και** — and
+<div class="table-scroll"><table>
+<thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
+<tbody>
+<tr><td lang="el">είναι</td><td>is / it is (it’s)</td></tr>
+<tr><td lang="el">εδώ</td><td>here</td></tr>
+<tr><td lang="el">εκεί</td><td>there</td></tr>
+</tbody></table></div>
 
 <div class="example">
 <p class="greek-line" lang="el"><strong>Το σπίτι</strong> είναι εδώ.</p>
@@ -78,7 +81,7 @@ Translate into Greek using the articles introduced above.
 
 2. The cell phone is there.
 
-3. It’s a road.
+3. It’s a bag.
 
 4. The chair is here.
 
@@ -92,7 +95,7 @@ Translate into Greek using the articles introduced above.
 
 9. A pen and a pencil.
 
-10. The cat is here, and the dog is there.
+10. The dog is here, and the cat is there.
 
 <details data-pagefind-ignore>
 <summary>Show answers</summary>
@@ -100,13 +103,13 @@ Translate into Greek using the articles introduced above.
 <ol>
 <li lang="el">Το σπίτι είναι εκεί.</li>
 <li lang="el">Το κινητό είναι εκεί.</li>
-<li lang="el">Είναι ένας δρόμος.</li>
+<li lang="el">Είναι μια τσάντα.</li>
 <li lang="el">Η καρέκλα είναι εδώ.</li>
 <li lang="el">Είναι μια πόρτα και το κλειδί είναι εδώ.</li>
 <li lang="el">Το παιδί είναι εδώ.</li>
 <li lang="el">Η λάμπα είναι εδώ.</li>
 <li lang="el">Ένα βιβλίο και ένα τετράδιο.</li>
 <li lang="el">Ένα στυλό και ένα μολύβι.</li>
-<li lang="el">Η γάτα είναι εδώ και ο σκύλος είναι εκεί.</li>
+<li lang="el">Ο σκύλος είναι εδώ και η γάτα είναι εκεί.</li>
 </ol>
 </details>

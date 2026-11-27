@@ -22,6 +22,8 @@ permalink: /lessons/to-be-present-tense/
 <tr><td lang="el">αυτοί / αυτές / αυτά</td><td>they (masculine / feminine / neuter)</td></tr>
 </tbody></table></div>
 
+Use **αυτοί** for masculine nouns or a mixed group of people, **αυτές** for feminine nouns or a group of women or girls, and **αυτά** for neuter nouns. For things, choose the pronoun that matches the noun’s grammatical gender.
+
 ## 2. The verb “to be”
 
 Modern Greek does not use an infinitive like English “to be.” Instead, dictionaries list verbs in the “I” form: **είμαι** means “I am.”
@@ -36,8 +38,6 @@ Modern Greek does not use an infinitive like English “to be.” Instead, dicti
 <tr><td lang="el">εσείς</td><td lang="el"><strong>είστε</strong></td><td>you are (plural / polite)</td></tr>
 <tr><td lang="el">αυτοί / αυτές / αυτά</td><td lang="el"><strong>είναι</strong></td><td>they are</td></tr>
 </tbody></table></div>
-
-Use **αυτοί** for a group of men or a mixed-gender group, **αυτές** for a group of women, and **αυτά** for a neuter group or things.
 
 The pronoun can be left out: **Είμαι** already means “I am.” Use the pronoun when you want to make the subject clear or emphasise it. **Είναι** can mean “he/she/it is” or “they are,” depending on the context.
 
@@ -75,9 +75,6 @@ Use the neuter form with **το παιδί**, whether the child is a boy or a gi
 
 ## 4. With εδώ and εκεί
 
-- **εδώ** — here
-- **εκεί** — there
-
 <div class="example">
 <p class="greek-line" lang="el"><strong>Είμαστε</strong> εδώ.</p>
 <p class="translation-line" lang="en">We are here.</p>
@@ -111,6 +108,12 @@ For a yes/no question, keep the same word order and use a questioning tone. The 
 
 ## 6. Negatives
 
+<div class="table-scroll"><table>
+<thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
+<tbody>
+<tr><td lang="el">δεν</td><td>not</td></tr>
+</tbody></table></div>
+
 Put **δεν** before the verb to say “not.”
 
 <div class="example">
@@ -126,6 +129,11 @@ Put **δεν** before the verb to say “not.”
 <div class="example">
 <p class="greek-line" lang="el">Αυτός <strong>δεν είναι</strong> κουρασμένος.</p>
 <p class="translation-line" lang="en">He is not tired.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Δεν <strong>είμαστε</strong> εκεί.</p>
+<p class="translation-line" lang="en">We are not there.</p>
 </div>
 
 ## 7. Practice exercises

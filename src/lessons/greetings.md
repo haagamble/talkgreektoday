@@ -24,37 +24,60 @@ Learn **Γεια σου** and **Γεια σας** as whole expressions. They can
 
 ## 2. Asking how someone is
 
-- **πώς** — how
-- **ευχαριστώ** — thank you
-- **πολύ** — very
-- **καλά** — well / fine
+<div class="table-scroll"><table>
+<thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
+<tbody>
+<tr><td lang="el">πώς</td><td>how</td></tr>
+<tr><td lang="el">ευχαριστώ</td><td>thank you</td></tr>
+<tr><td lang="el">πολύ</td><td>very</td></tr>
+<tr><td lang="el">καλά</td><td>well / fine</td></tr>
+</tbody></table></div>
+
+### Example sentences
+
+<div class="example">
+<p class="greek-line" lang="el">Πώς είσαι;</p>
+<p class="translation-line" lang="en">How are you? (One person, informal.)</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Πώς είστε;</p>
+<p class="translation-line" lang="en">How are you? (Several people, or one person politely.)</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Είμαι καλά.</p>
+<p class="translation-line" lang="en">I’m fine.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Καλά, ευχαριστώ.</p>
+<p class="translation-line" lang="en">Fine, thank you.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Πολύ καλά, ευχαριστώ.</p>
+<p class="translation-line" lang="en">Very well, thank you.</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Εσύ;</p>
+<p class="translation-line" lang="en">And you? (One person, informal.)</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">Εσείς;</p>
+<p class="translation-line" lang="en">And you? (Several people, or one person politely.)</p>
+</div>
+
+## 3. Saying yes and no
 
 <div class="table-scroll"><table>
 <thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
 <tbody>
-<tr><td lang="el">Πώς είσαι;</td><td>How are you? (One person, informal.)</td></tr>
-<tr><td lang="el">Πώς είστε;</td><td>How are you? (Several people, or one person politely.)</td></tr>
-<tr><td lang="el">Είμαι καλά.</td><td>I’m fine.</td></tr>
-<tr><td lang="el">Καλά, ευχαριστώ.</td><td>Fine, thank you.</td></tr>
-<tr><td lang="el">Πολύ καλά, ευχαριστώ.</td><td>Very well, thank you.</td></tr>
-<tr><td lang="el">Εσύ;</td><td>And you? (One person, informal.)</td></tr>
-<tr><td lang="el">Εσείς;</td><td>And you? (Several people, or one person politely.)</td></tr>
+<tr><td lang="el">ναι</td><td>yes</td></tr>
+<tr><td lang="el">όχι</td><td>no</td></tr>
 </tbody></table></div>
-
-## 3. Saying yes and no
-
-- **Ναι** — yes
-- **Όχι** — no
-
-<div class="example">
-<p class="greek-line" lang="el">Ναι.</p>
-<p class="translation-line" lang="en">Yes.</p>
-</div>
-
-<div class="example">
-<p class="greek-line" lang="el">Όχι.</p>
-<p class="translation-line" lang="en">No.</p>
-</div>
 
 <div class="example">
 <p class="greek-line" lang="el">Ναι, είμαι καλά.</p>

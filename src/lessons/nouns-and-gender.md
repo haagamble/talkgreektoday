@@ -30,6 +30,7 @@ Learn each noun together with its article.
 <tr><td>Feminine</td><td lang="el"><strong>η</strong> τσάντα</td><td>the bag</td></tr>
 <tr><td>Feminine</td><td lang="el"><strong>η</strong> λάμπα</td><td>the lamp</td></tr>
 <tr><td>Feminine</td><td lang="el"><strong>η</strong> καρέκλα</td><td>the chair</td></tr>
+<tr><td>Feminine</td><td lang="el"><strong>η</strong> πόλη</td><td>the city</td></tr>
 <tr><td>Neuter</td><td lang="el"><strong>το</strong> βιβλίο</td><td>the book</td></tr>
 <tr><td>Neuter</td><td lang="el"><strong>το</strong> σπίτι</td><td>the house</td></tr>
 <tr><td>Neuter</td><td lang="el"><strong>το</strong> παιδί</td><td>the child</td></tr>
@@ -50,48 +51,74 @@ Some common singular endings can help you recognise gender:
 <thead><tr><th scope="col">Gender</th><th scope="col">Common endings</th><th scope="col">Examples</th></tr></thead>
 <tbody>
 <tr><td>Masculine</td><td lang="el">-ος</td><td lang="el">ο σκύλ<strong>ος</strong></td></tr>
-<tr><td>Feminine</td><td lang="el">-α, -η</td><td lang="el">η γάτ<strong>α</strong>, η φίλ<strong>η</strong></td></tr>
+<tr><td>Feminine</td><td lang="el">-α, -η</td><td lang="el">η γάτ<strong>α</strong>, η πόλ<strong>η</strong></td></tr>
 <tr><td>Neuter</td><td lang="el">-ο, -ι</td><td lang="el">το βιβλί<strong>ο</strong>, το σπίτ<strong>ι</strong></td></tr>
 </tbody></table></div>
 
 These are clues, not rules for every noun. The article is your guide: learn **το βιβλίο**, rather than βιβλίο alone.
 
-## 3. Practice exercises
+## 3. Joining words with και
+
+<div class="table-scroll"><table>
+<thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
+<tbody>
+<tr><td lang="el">και</td><td>and</td></tr>
+</tbody></table></div>
+
+Use **και** (“and”) to join words. Keep the article with each noun.
+
+<div class="example">
+<p class="greek-line" lang="el">το παιδί και η γάτα</p>
+<p class="translation-line" lang="en">the child and the cat</p>
+</div>
+
+<div class="example">
+<p class="greek-line" lang="el">η πόλη και ο δρόμος</p>
+<p class="translation-line" lang="en">the city and the road</p>
+</div>
+
+## 4. Practice exercises
 
 Translate into Greek, including the article.
 
-1. The dog.
+1. The cat and the dog.
 
-2. The cat.
+2. The city.
 
-3. The book.
+3. The book and the bag.
 
 4. The cell phone.
 
 5. The chair.
 
-6. The door.
+6. The door and the key.
 
-7. The bag.
+7. The road.
 
-8. The lamp.
+8. The house.
 
-9. The key.
+9. The child.
 
-10. The pen and the pencil. (Use **και** for “and.”)
+10. The lamp.
+
+11. The notebook.
+
+12. The pen and the pencil.
 
 <details data-pagefind-ignore>
 <summary>Show answers</summary>
 <ol>
-<li lang="el">Ο σκύλος.</li>
-<li lang="el">Η γάτα.</li>
-<li lang="el">Το βιβλίο.</li>
+<li lang="el">Η γάτα και ο σκύλος.</li>
+<li lang="el">Η πόλη.</li>
+<li lang="el">Το βιβλίο και η τσάντα.</li>
 <li lang="el">Το κινητό.</li>
 <li lang="el">Η καρέκλα.</li>
-<li lang="el">Η πόρτα.</li>
-<li lang="el">Η τσάντα.</li>
+<li lang="el">Η πόρτα και το κλειδί.</li>
+<li lang="el">Ο δρόμος.</li>
+<li lang="el">Το σπίτι.</li>
+<li lang="el">Το παιδί.</li>
 <li lang="el">Η λάμπα.</li>
-<li lang="el">Το κλειδί.</li>
+<li lang="el">Το τετράδιο.</li>
 <li lang="el">Το στυλό και το μολύβι.</li>
 </ol>
 </details>

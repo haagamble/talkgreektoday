@@ -108,7 +108,7 @@
           "greek": "και",
           "english": "and",
           "type": "conjunction",
-          "note": "Introduced in exercise 10."
+          "note": "Introduced in section 3, Joining words with και."
         },
         {
           "id": "noun-pen",
@@ -157,6 +157,14 @@
           "gender": "neuter",
           "english": "notebook",
           "type": "noun"
+        },
+        {
+          "id": "noun-city",
+          "greek": "πόλη",
+          "article": "η",
+          "gender": "feminine",
+          "english": "city",
+          "type": "noun"
         }
       ],
       "newForms": []
@@ -190,9 +198,9 @@
           "id": "verb-be",
           "greek": "είναι",
           "lemma": "είμαι",
-          "english": "is",
+          "english": "is / it is (it’s)",
           "type": "verb",
-          "note": "Only είναι meaning is is introduced here; the full present tense follows in the next lesson."
+          "note": "Only είναι meaning is / it is is introduced here; the full present tense follows in the next lesson."
         },
         {
           "id": "adverb-here",
@@ -423,6 +431,18 @@
           "greek": "Εσείς;",
           "english": "And you? (plural or polite)",
           "type": "expression"
+        },
+        {
+          "id": "particle-yes",
+          "greek": "ναι",
+          "english": "yes",
+          "type": "particle"
+        },
+        {
+          "id": "particle-no",
+          "greek": "όχι",
+          "english": "no",
+          "type": "particle"
         },
         {
           "id": "expression-goodbye",
