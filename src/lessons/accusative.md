@@ -30,18 +30,42 @@ The article and sometimes the noun ending change in the accusative. This lesson 
 ### Definite articles
 
 <div class="table-scroll"><table>
+<thead><tr><th scope="col">Gender</th><th scope="col">Nominative</th><th scope="col">Accusative</th></tr></thead>
+<tbody>
+<tr><td>Masculine</td><td lang="el">ο</td><td lang="el">τον</td></tr>
+<tr><td>Feminine</td><td lang="el">η</td><td lang="el">τη / την</td></tr>
+<tr><td>Neuter</td><td lang="el">το</td><td lang="el">το</td></tr>
+</tbody></table></div>
+
+Use **την** before a vowel or **κ, π, τ, ξ, ψ, μπ, ντ, γκ, τσ, τζ**; otherwise use **τη**.
+
+Here are the articles with nouns in the nominative and accusative.
+
+<div class="table-scroll"><table>
 <thead><tr><th scope="col">Gender</th><th scope="col">Nominative</th><th scope="col">Accusative</th><th scope="col">English</th></tr></thead>
 <tbody>
 <tr><td>Masculine</td><td lang="el">ο σκύλος</td><td lang="el"><strong>τον σκύλο</strong></td><td>the dog</td></tr>
 <tr><td>Feminine</td><td lang="el">η γάτα</td><td lang="el"><strong>τη γάτα</strong></td><td>the cat</td></tr>
+<tr><td>Feminine</td><td lang="el">η πόρτα</td><td lang="el"><strong>την πόρτα</strong></td><td>the door</td></tr>
+<tr><td>Feminine</td><td lang="el">η πόλη</td><td lang="el"><strong>την πόλη</strong></td><td>the city</td></tr>
 <tr><td>Neuter</td><td lang="el">το βιβλίο</td><td lang="el"><strong>το βιβλίο</strong></td><td>the book</td></tr>
 </tbody></table></div>
 
 - Masculine nouns ending in **-ος** change to **-ο**: σκύλος → σκύλο.
-- Feminine nouns in **-α** keep their endings: γάτα → γάτα, καρέκλα → καρέκλα. The definite article changes from **η** to **τη / την**. Use **την** before a vowel or **κ, π, τ, ξ, ψ, μπ, ντ, γκ, τσ, τζ**; otherwise use **τη**.
+- Feminine nouns ending in **-α** or **-η** keep their endings: **γάτα → γάτα**, **πόλη → πόλη**.
 - Neuter nouns and the definite article stay the same: **το → το**.
 
 ### Indefinite articles
+
+<div class="table-scroll"><table>
+<thead><tr><th scope="col">Gender</th><th scope="col">Nominative</th><th scope="col">Accusative</th></tr></thead>
+<tbody>
+<tr><td>Masculine</td><td lang="el">ένας</td><td lang="el">έναν</td></tr>
+<tr><td>Feminine</td><td lang="el">μία / μια</td><td lang="el">μία / μια</td></tr>
+<tr><td>Neuter</td><td lang="el">ένα</td><td lang="el">ένα</td></tr>
+</tbody></table></div>
+
+Here are the articles with nouns in the nominative and accusative.
 
 <div class="table-scroll"><table>
 <thead><tr><th scope="col">Gender</th><th scope="col">Nominative</th><th scope="col">Accusative</th><th scope="col">English</th></tr></thead>
@@ -50,10 +74,6 @@ The article and sometimes the noun ending change in the accusative. This lesson 
 <tr><td>Feminine</td><td lang="el">μια γάτα</td><td lang="el"><strong>μια γάτα</strong></td><td>a cat</td></tr>
 <tr><td>Neuter</td><td lang="el">ένα βιβλίο</td><td lang="el"><strong>ένα βιβλίο</strong></td><td>a book</td></tr>
 </tbody></table></div>
-
-- The masculine indefinite article changes from **ένας** to **έναν**.
-- The feminine indefinite article **μια** stays the same.
-- The neuter indefinite article **ένα** stays the same.
 
 ## 3. Example sentences
 
