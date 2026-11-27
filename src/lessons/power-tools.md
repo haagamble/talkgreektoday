@@ -34,6 +34,8 @@ Power tools are phrases and sentences that help you learn and communicate in Gre
 
 ## 3. Asking someone to repeat or slow down
 
+Use **Μπορείτε…** when addressing several people or one person politely.
+
 <div class="table-scroll"><table>
 <thead><tr><th scope="col">Greek</th><th scope="col">English</th></tr></thead>
 <tbody>

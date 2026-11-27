@@ -470,28 +470,50 @@
       "lessonId": "power-tools",
       "newItems": [
         {
+          "id": "language-greek",
+          "greek": "ελληνικά",
+          "english": "Greek",
+          "type": "language"
+        },
+        {
+          "id": "expression-learning-greek",
+          "greek": "Μαθαίνω ελληνικά.",
+          "english": "I’m learning Greek.",
+          "type": "expression"
+        },
+        {
+          "id": "expression-speak-a-little-greek",
+          "greek": "Μιλάω λίγο ελληνικά.",
+          "english": "I speak a little Greek.",
+          "type": "expression"
+        },
+        {
+          "id": "expression-do-not-understand",
+          "greek": "Δεν καταλαβαίνω.",
+          "english": "I don’t understand.",
+          "type": "expression"
+        },
+        {
+          "id": "expression-do-not-understand-well",
+          "greek": "Δεν καταλαβαίνω καλά.",
+          "english": "I don’t understand well.",
+          "type": "expression"
+        },
+        {
           "id": "verb-learn",
           "greek": "μαθαίνω",
           "english": "to learn",
           "type": "verb"
         },
         {
-          "id": "verb-practise",
-          "greek": "εξασκούμαι",
-          "english": "to practise",
-          "type": "verb"
+          "id": "expression-want-to-practise",
+          "greek": "Θέλω να εξασκηθώ.",
+          "english": "I want to practise.",
+          "type": "expression"
         },
         {
           "id": "verb-understand",
           "greek": "καταλαβαίνω",
-          "forms": [
-            "καταλαβαίνω",
-            "καταλαβαίνεις",
-            "καταλαβαίνει",
-            "καταλαβαίνουμε",
-            "καταλαβαίνετε",
-            "καταλαβαίνουν"
-          ],
           "english": "to understand",
           "type": "verb"
         },
@@ -500,38 +522,34 @@
           "greek": "μιλάω",
           "forms": [
             "μιλάω",
-            "μιλάς",
-            "μιλάει",
-            "μιλάμε",
-            "μιλάτε",
-            "μιλάνε"
+            "μιλάτε"
           ],
           "english": "to speak",
           "type": "verb"
         },
         {
-          "id": "verb-repeat",
-          "greek": "επαναλαμβάνω",
-          "english": "to repeat",
-          "type": "verb"
+          "id": "expression-can-you-repeat",
+          "greek": "Μπορείτε να το επαναλάβετε;",
+          "english": "Can you repeat that? (polite or plural)",
+          "type": "expression"
         },
         {
-          "id": "verb-say",
-          "greek": "λέω",
-          "english": "to say",
-          "type": "verb"
+          "id": "expression-can-you-say-again",
+          "greek": "Μπορείτε να το πείτε ξανά;",
+          "english": "Can you say that again? (polite or plural)",
+          "type": "expression"
         },
         {
-          "id": "verb-mean",
-          "greek": "σημαίνω",
-          "english": "to mean",
-          "type": "verb"
+          "id": "expression-what-does-this-mean",
+          "greek": "Τι σημαίνει αυτό;",
+          "english": "What does this mean?",
+          "type": "expression"
         },
         {
-          "id": "verb-write",
-          "greek": "γράφω",
-          "english": "to write",
-          "type": "verb"
+          "id": "expression-can-you-speak-slowly",
+          "greek": "Μπορείτε να μιλάτε πιο αργά;",
+          "english": "Can you speak more slowly? (polite or plural)",
+          "type": "expression"
         },
         {
           "id": "expression-speak-english",
@@ -574,8 +592,7 @@
       "reviewItems": [
         "particle-not",
         "question-how",
-        "expression-thank-you",
-        "language-greek"
+        "adverb-well"
       ]
     },
     {
@@ -1968,12 +1985,6 @@
       "lessonId": "ten-common-verbs",
       "newItems": [
         {
-          "id": "language-greek",
-          "greek": "ελληνικά",
-          "english": "Greek",
-          "type": "language"
-        },
-        {
           "id": "noun-film",
           "greek": "ταινία",
           "article": "η",
@@ -2009,7 +2020,8 @@
         "verb-be",
         "verb-have",
         "noun-book",
-        "noun-father"
+        "noun-father",
+        "language-greek"
       ]
     },
     {
